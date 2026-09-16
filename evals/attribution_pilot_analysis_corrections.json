@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "status": "post-collection rubric correction",
+  "applies_to_frozen_design_sha256": "de9bc1f412b89f60dd8cb30a35d36b62f2e3ab595bfe2c3809e06a1bac4dc2cb",
+  "reason": "Independent prereview found that broad probes were mislabeled as semantic support, envelope validity was conflated with provider success, matrix mismatch was diagnostic-only, and auth/React literal expectations were not correctness rubrics.",
+  "semantic_attribution": "unassessed; needs independent review",
+  "case_rubrics": {
+    "auth-near-example": {
+      "required_exact_role": "narrow lexical probe only",
+      "exclude_from": ["correctness", "artifact-preservation"]
+    },
+    "react-near-example": {
+      "required_exact_role": "narrow lexical probe only",
+      "exclude_from": ["correctness", "artifact-preservation"]
+    },
+    "cache-novel-paraphrase": {
+      "required_exact_role": "none",
+      "exclude_from": ["artifact-preservation"]
+    },
+    "exact-preservation": {
+      "required_exact_role": "artifact-preservation"
+    },
+    "russian-language": {
+      "required_exact_role": "artifact-preservation"
+    },
+    "artifact-boundary": {
+      "required_exact_role": "none",
+      "exclude_from": ["artifact-preservation"]
+    },
+    "destructive-clarity": {
+      "required_exact_role": "artifact-preservation"
+    },
+    "neutral-arithmetic": {
+      "required_exact_role": "narrow lexical probe only",
+      "exclude_from": ["correctness", "artifact-preservation"]
+    }
+  }
+}

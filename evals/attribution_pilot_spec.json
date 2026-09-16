@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "historical_commit": "7c188c58dd58c7b99f18eb6d350ec9fead546d9e",
+  "sources": {
+    "original": [
+      {
+        "key": "short-synonym-pairs",
+        "category": "replacement-pair",
+        "anchor": "Short synonyms (big not extensive, fix not \"implement a solution for\").",
+        "lexical_any": ["big", "fix"]
+      },
+      {
+        "key": "verbose-auth-example",
+        "category": "negative-example",
+        "anchor": "Not: \"Sure! I'd be happy to help you with that. The issue you're experiencing is likely caused by...\"",
+        "lexical_any": ["Sure", "happy to help", "likely caused"]
+      },
+      {
+        "key": "terse-auth-example",
+        "category": "positive-example",
+        "anchor": "Yes: \"Bug in auth middleware. Token expiry check use `<` not `<=`. Fix:\"",
+        "lexical_any": ["Bug in auth middleware", "Token expiry", "not `<=`"]
+      },
+      {
+        "key": "react-full-example",
+        "category": "positive-example",
+        "anchor": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+        "lexical_any": ["New object ref", "Inline object prop", "`useMemo`"]
+      },
+      {
+        "key": "pool-full-example",
+        "category": "positive-example",
+        "anchor": "- full: \"Pool reuse open DB connections. No new connection per request. Skip handshake overhead.\"",
+        "lexical_any": ["Pool reuse", "DB connections", "handshake overhead"]
+      }
+    ],
+    "semantic": [
+      {
+        "key": "substance-exactness",
+        "category": "semantic-rule",
+        "anchor": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+        "assessment": "exact-preservation"
+      },
+      {
+        "key": "polarity-limits",
+        "category": "semantic-rule",
+        "anchor": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+        "assessment": "polarity-preservation"
+      },
+      {
+        "key": "no-caricature",
+        "category": "semantic-rule",
+        "anchor": "Never ADD word to sound caveman. Compression must not grow output.",
+        "assessment": "no-caricature"
+      },
+      {
+        "key": "language",
+        "category": "semantic-rule",
+        "anchor": "Preserve user's dominant language in every emitted line. Compress style, not language.",
+        "assessment": "language"
+      },
+      {
+        "key": "auto-clarity",
+        "category": "semantic-rule",
+        "anchor": "Use normal, explicit prose for Security warnings, Irreversible action confirmations, legal/medical risk, data-loss risk, technical ambiguity, and Multi-step sequences or ordered recovery where compression could change order or meaning.",
+        "assessment": "explicit-warning"
+      },
+      {
+        "key": "artifact-boundary",
+        "category": "semantic-rule",
+        "anchor": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages.",
+        "assessment": "normal-prose-artifact"
+      }
+    ]
+  }
+}

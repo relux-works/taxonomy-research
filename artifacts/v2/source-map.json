@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-16T11:33:41.555084+00:00",
+  "current_upstream": {
+    "commit": "ed37ab132393899c129bbeef2b9743ff3af19c68",
+    "path": "skills/caveman/SKILL.md",
+    "sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc"
+  },
+  "historical_semantic_candidate": {
+    "commit": "7c188c5",
+    "path": "skills/caveman/SKILL.md",
+    "raw_sha256": "86c684041a49da815c9fa5e34e161e36467dd09030986522aaab580fc212ae1c",
+    "clean_sha256": "17d60b4c9bdbe60309fcd28c9826d09764063e66307c5e2d9df41a016356313e",
+    "status": "unmerged historical candidate",
+    "removed_old_heading_ids": true
+  },
+  "entries": [
+    {
+      "id": "EVO-0BF09A0A-01",
+      "key": "short-synonym-pairs",
+      "source": "original",
+      "category": "replacement-pair",
+      "exact_original_snippet": "Short synonyms (big not extensive, fix not \"implement a solution for\").",
+      "match_count": 1,
+      "raw_commit": "ed37ab132393899c129bbeef2b9743ff3af19c68",
+      "raw_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "clean_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "lexical_any": [
+        "big",
+        "fix"
+      ]
+    },
+    {
+      "id": "EVO-0BF09A0A-02",
+      "key": "verbose-auth-example",
+      "source": "original",
+      "category": "negative-example",
+      "exact_original_snippet": "Not: \"Sure! I'd be happy to help you with that. The issue you're experiencing is likely caused by...\"",
+      "match_count": 1,
+      "raw_commit": "ed37ab132393899c129bbeef2b9743ff3af19c68",
+      "raw_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "clean_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "lexical_any": [
+        "Sure",
+        "happy to help",
+        "likely caused"
+      ]
+    },
+    {
+      "id": "EVO-0BF09A0A-03",
+      "key": "terse-auth-example",
+      "source": "original",
+      "category": "positive-example",
+      "exact_original_snippet": "Yes: \"Bug in auth middleware. Token expiry check use `<` not `<=`. Fix:\"",
+      "match_count": 1,
+      "raw_commit": "ed37ab132393899c129bbeef2b9743ff3af19c68",
+      "raw_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "clean_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "lexical_any": [
+        "Bug in auth middleware",
+        "Token expiry",
+        "not `<=`"
+      ]
+    },
+    {
+      "id": "EVO-0BF09A0A-04",
+      "key": "react-full-example",
+      "source": "original",
+      "category": "positive-example",
+      "exact_original_snippet": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+      "match_count": 1,
+      "raw_commit": "ed37ab132393899c129bbeef2b9743ff3af19c68",
+      "raw_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "clean_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "lexical_any": [
+        "New object ref",
+        "Inline object prop",
+        "`useMemo`"
+      ]
+    },
+    {
+      "id": "EVO-0BF09A0A-05",
+      "key": "pool-full-example",
+      "source": "original",
+      "category": "positive-example",
+      "exact_original_snippet": "- full: \"Pool reuse open DB connections. No new connection per request. Skip handshake overhead.\"",
+      "match_count": 1,
+      "raw_commit": "ed37ab132393899c129bbeef2b9743ff3af19c68",
+      "raw_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "clean_sha256": "0bf09a0a9a017d004a81d4b693e5a2d830e1a28230a5885df773e1ed9c0571cc",
+      "lexical_any": [
+        "Pool reuse",
+        "DB connections",
+        "handshake overhead"
+      ]
+    },
+    {
+      "id": "EVS-17D60B4C-01",
+      "key": "substance-exactness",
+      "source": "semantic",
+      "category": "semantic-rule",
+      "exact_original_snippet": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "match_count": 1,
+      "raw_commit": "7c188c5",
+      "raw_sha256": "86c684041a49da815c9fa5e34e161e36467dd09030986522aaab580fc212ae1c",
+      "clean_sha256": "17d60b4c9bdbe60309fcd28c9826d09764063e66307c5e2d9df41a016356313e",
+      "assessment": "exact-preservation"
+    },
+    {
+      "id": "EVS-17D60B4C-02",
+      "key": "polarity-limits",
+      "source": "semantic",
+      "category": "semantic-rule",
+      "exact_original_snippet": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+      "match_count": 1,
+      "raw_commit": "7c188c5",
+      "raw_sha256": "86c684041a49da815c9fa5e34e161e36467dd09030986522aaab580fc212ae1c",
+      "clean_sha256": "17d60b4c9bdbe60309fcd28c9826d09764063e66307c5e2d9df41a016356313e",
+      "assessment": "polarity-preservation"
+    },
+    {
+      "id": "EVS-17D60B4C-03",
+      "key": "no-caricature",
+      "source": "semantic",
+      "category": "semantic-rule",
+      "exact_original_snippet": "Never ADD word to sound caveman. Compression must not grow output.",
+      "match_count": 1,
+      "raw_commit": "7c188c5",
+      "raw_sha256": "86c684041a49da815c9fa5e34e161e36467dd09030986522aaab580fc212ae1c",
+      "clean_sha256": "17d60b4c9bdbe60309fcd28c9826d09764063e66307c5e2d9df41a016356313e",
+      "assessment": "no-caricature"
+    },
+    {
+      "id": "EVS-17D60B4C-04",
+      "key": "language",
+      "source": "semantic",
+      "category": "semantic-rule",
+      "exact_original_snippet": "Preserve user's dominant language in every emitted line. Compress style, not language.",
+      "match_count": 1,
+      "raw_commit": "7c188c5",
+      "raw_sha256": "86c684041a49da815c9fa5e34e161e36467dd09030986522aaab580fc212ae1c",
+      "clean_sha256": "17d60b4c9bdbe60309fcd28c9826d09764063e66307c5e2d9df41a016356313e",
+      "assessment": "language"
+    },
+    {
+      "id": "EVS-17D60B4C-05",
+      "key": "auto-clarity",
+      "source": "semantic",
+      "category": "semantic-rule",
+      "exact_original_snippet": "Use normal, explicit prose for Security warnings, Irreversible action confirmations, legal/medical risk, data-loss risk, technical ambiguity, and Multi-step sequences or ordered recovery where compression could change order or meaning.",
+      "match_count": 1,
+      "raw_commit": "7c188c5",
+      "raw_sha256": "86c684041a49da815c9fa5e34e161e36467dd09030986522aaab580fc212ae1c",
+      "clean_sha256": "17d60b4c9bdbe60309fcd28c9826d09764063e66307c5e2d9df41a016356313e",
+      "assessment": "explicit-warning"
+    },
+    {
+      "id": "EVS-17D60B4C-06",
+      "key": "artifact-boundary",
+      "source": "semantic",
+      "category": "semantic-rule",
+      "exact_original_snippet": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages.",
+      "match_count": 1,
+      "raw_commit": "7c188c5",
+      "raw_sha256": "86c684041a49da815c9fa5e34e161e36467dd09030986522aaab580fc212ae1c",
+      "clean_sha256": "17d60b4c9bdbe60309fcd28c9826d09764063e66307c5e2d9df41a016356313e",
+      "assessment": "normal-prose-artifact"
+    }
+  ],
+  "v2_reuse": {
+    "purpose": "Reuse v1 pinned fixtures to isolate response-protocol changes",
+    "version_confound": "Current original and historical semantic sources differ in version and contract; comparisons do not isolate compression."
+  }
+}

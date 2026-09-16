@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "status": "post-collection offline calibration; not a frozen live-model input",
+  "unit_of_analysis": "one explicitly grounded task-output-source fixture",
+  "warning": "Fixture scores calibrate checker/audit behavior only. They are not live model attribution precision and do not observe causal instruction use.",
+  "structural": {
+    "fixtures": [
+      {
+        "id": "valid-distinctive-literal-link",
+        "expected_accept": true,
+        "accepted": true,
+        "false_accept": false,
+        "false_reject": false,
+        "envelope_errors": [],
+        "metadata_errors": []
+      },
+      {
+        "id": "valid-empty-abstention",
+        "expected_accept": true,
+        "accepted": true,
+        "false_accept": false,
+        "false_reject": false,
+        "envelope_errors": [],
+        "metadata_errors": []
+      },
+      {
+        "id": "unknown-id",
+        "expected_accept": false,
+        "accepted": false,
+        "false_accept": false,
+        "false_reject": false,
+        "envelope_errors": [],
+        "metadata_errors": [
+          "segment 0 link 0 has unknown ID"
+        ]
+      },
+      {
+        "id": "cross-arm-id",
+        "expected_accept": false,
+        "accepted": false,
+        "false_accept": false,
+        "false_reject": false,
+        "envelope_errors": [],
+        "metadata_errors": [
+          "segment 0 link 0 has cross-arm ID"
+        ]
+      },
+      {
+        "id": "truncated-source-quote",
+        "expected_accept": false,
+        "accepted": false,
+        "false_accept": false,
+        "false_reject": false,
+        "envelope_errors": [],
+        "metadata_errors": [
+          "segment 0 link 0 has incorrect source quote"
+        ]
+      },
+      {
+        "id": "empty-segment",
+        "expected_accept": false,
+        "accepted": false,
+        "false_accept": false,
+        "false_reject": false,
+        "envelope_errors": [
+          "segment 0 text must be non-empty"
+        ],
+        "metadata_errors": []
+      }
+    ],
+    "expected_accept_denominator": 2,
+    "expected_reject_denominator": 4,
+    "false_accepts": 0,
+    "false_rejects": 0
+  },
+  "observable": {
+    "observer_scope": "deterministic checks only for declared literal/artifact/polarity/language fixture properties; no general semantic classifier",
+    "fixtures": [
+      {
+        "id": "distinctive-literal-positive",
+        "source_key": "react-full-example",
+        "task_input": "Explain the inline-object React re-render and useMemo remedy.",
+        "segment_text": "Inline object prop creates a New object ref; wrap it in `useMemo`.",
+        "declared_property": {
+          "kind": "distinctive-literal-overlap",
+          "marker": "`useMemo`"
+        },
+        "emitted": true,
+        "expected_label": "compatible",
+        "rationale": "The declared distinctive marker occurs in both output and frozen source.",
+        "observer_judgment": "compatible",
+        "observer_evidence": {
+          "marker": "`useMemo`",
+          "in_segment": true,
+          "in_source": true
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "same-source-unrelated-wording",
+        "source_key": "react-full-example",
+        "task_input": "Calculate 17 × 19 exactly.",
+        "segment_text": "17 × 19 = 323",
+        "declared_property": {
+          "kind": "distinctive-literal-overlap",
+          "marker": "`useMemo`"
+        },
+        "emitted": true,
+        "expected_label": "contradicted",
+        "rationale": "The declared React marker is absent from the arithmetic output.",
+        "observer_judgment": "contradicted",
+        "observer_evidence": {
+          "marker": "`useMemo`",
+          "in_segment": false,
+          "in_source": true
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "artifacts-preserved",
+        "source_key": "substance-exactness",
+        "task_input": "Preserve E_CONN_RESET and 250 ms exactly.",
+        "segment_text": "E_CONN_RESET occurred after 250 ms.",
+        "declared_property": {
+          "kind": "required-exact-artifacts",
+          "required": [
+            "E_CONN_RESET",
+            "250 ms"
+          ]
+        },
+        "emitted": true,
+        "expected_label": "compatible",
+        "rationale": "Both explicit artifacts are present byte-for-byte.",
+        "observer_judgment": "compatible",
+        "observer_evidence": {
+          "required": [
+            "E_CONN_RESET",
+            "250 ms"
+          ],
+          "missing": []
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "artifact-omitted",
+        "source_key": "substance-exactness",
+        "task_input": "Preserve E_CONN_RESET and 250 ms exactly.",
+        "segment_text": "The connection reset after 250 milliseconds.",
+        "declared_property": {
+          "kind": "required-exact-artifacts",
+          "required": [
+            "E_CONN_RESET",
+            "250 ms"
+          ]
+        },
+        "emitted": true,
+        "expected_label": "contradicted",
+        "rationale": "Both required exact artifacts are absent.",
+        "observer_judgment": "contradicted",
+        "observer_evidence": {
+          "required": [
+            "E_CONN_RESET",
+            "250 ms"
+          ],
+          "missing": [
+            "E_CONN_RESET",
+            "250 ms"
+          ]
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "polarity-pair-positive",
+        "paired_context_group": "same-output-polarity",
+        "source_key": "polarity-limits",
+        "task_input": "State that the client must retry.",
+        "segment_text": "The client must retry after E_CONN_RESET.",
+        "declared_property": {
+          "kind": "required-polarity",
+          "required_phrase": "must retry"
+        },
+        "emitted": false,
+        "expected_label": "compatible",
+        "rationale": "Output preserves the task-required positive polarity.",
+        "observer_judgment": "compatible",
+        "observer_evidence": {
+          "required_phrase": "must retry",
+          "present": true
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "polarity-pair-negative",
+        "paired_context_group": "same-output-polarity",
+        "source_key": "polarity-limits",
+        "task_input": "State that the client must not retry.",
+        "segment_text": "The client must retry after E_CONN_RESET.",
+        "declared_property": {
+          "kind": "required-polarity",
+          "required_phrase": "must not retry"
+        },
+        "emitted": true,
+        "expected_label": "contradicted",
+        "rationale": "Identical output violates the changed required negative polarity.",
+        "observer_judgment": "contradicted",
+        "observer_evidence": {
+          "required_phrase": "must not retry",
+          "present": false
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "language-pair-positive",
+        "paired_context_group": "same-output-language",
+        "source_key": "language",
+        "task_input": "Ответь по-русски.",
+        "segment_text": "Сервис готов.",
+        "declared_property": {
+          "kind": "required-language",
+          "language": "ru"
+        },
+        "emitted": false,
+        "expected_label": "compatible",
+        "rationale": "Output language matches the explicit Russian task.",
+        "observer_judgment": "compatible",
+        "observer_evidence": {
+          "required_language": "ru",
+          "cyrillic_letters": 11,
+          "latin_letters": 0
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "language-pair-negative",
+        "paired_context_group": "same-output-language",
+        "source_key": "language",
+        "task_input": "Answer in English.",
+        "segment_text": "Сервис готов.",
+        "declared_property": {
+          "kind": "required-language",
+          "language": "en"
+        },
+        "emitted": false,
+        "expected_label": "contradicted",
+        "rationale": "Identical output violates the changed explicit English task.",
+        "observer_judgment": "contradicted",
+        "observer_evidence": {
+          "required_language": "en",
+          "cyrillic_letters": 11,
+          "latin_letters": 0
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "honestly-unlinked-answer",
+        "source_key": "react-full-example",
+        "task_input": "Calculate 17 × 19 exactly.",
+        "segment_text": "17 × 19 = 323",
+        "declared_property": {
+          "kind": "distinctive-literal-overlap",
+          "marker": "`useMemo`"
+        },
+        "emitted": false,
+        "expected_label": "contradicted",
+        "rationale": "No declared React overlap exists, so no link is appropriate.",
+        "observer_judgment": "contradicted",
+        "observer_evidence": {
+          "marker": "`useMemo`",
+          "in_segment": false,
+          "in_source": true
+        },
+        "matches_independent_expected_label": true
+      },
+      {
+        "id": "generic-rule-insufficient-evidence",
+        "source_key": "no-caricature",
+        "task_input": "Say whether the service is ready.",
+        "segment_text": "The service is ready.",
+        "declared_property": {
+          "kind": "unsupported-general-semantics"
+        },
+        "emitted": false,
+        "expected_label": "insufficient-evidence",
+        "rationale": "Growth and caricature cannot be decided without a declared baseline and broader rubric.",
+        "observer_judgment": "insufficient-evidence",
+        "observer_evidence": {
+          "limit": "fixture declares no deterministic observable property"
+        },
+        "matches_independent_expected_label": true
+      }
+    ],
+    "observer_expected_label_mismatches": 0,
+    "declared_emissions": {
+      "true_positive": 2,
+      "false_positive": 3,
+      "true_negative": 2,
+      "false_negative": 2,
+      "insufficient_evidence": 1,
+      "precision": {
+        "value": 0.4,
+        "numerator": 2,
+        "denominator": 5
+      },
+      "recall": {
+        "value": 0.5,
+        "numerator": 2,
+        "denominator": 4
+      },
+      "passes_perfect_fixture_gate": false
+    },
+    "always_positive_control": {
+      "true_positive": 4,
+      "false_positive": 5,
+      "true_negative": 0,
+      "false_negative": 0,
+      "insufficient_evidence": 1,
+      "precision": {
+        "value": 0.4444444444444444,
+        "numerator": 4,
+        "denominator": 9
+      },
+      "recall": {
+        "value": 1.0,
+        "numerator": 4,
+        "denominator": 4
+      },
+      "passes_perfect_fixture_gate": false
+    },
+    "always_empty_control": {
+      "true_positive": 0,
+      "false_positive": 0,
+      "true_negative": 5,
+      "false_negative": 4,
+      "insufficient_evidence": 1,
+      "precision": {
+        "value": null,
+        "numerator": 0,
+        "denominator": 0
+      },
+      "recall": {
+        "value": 0.0,
+        "numerator": 0,
+        "denominator": 4
+      },
+      "passes_perfect_fixture_gate": false
+    }
+  },
+  "live_data": {
+    "numeric_false_positive_rate": null,
+    "numeric_false_negative_rate": null,
+    "reason": "Independent review has not yet labeled the complete live candidate universe; use all-tagged-segments-audit.json for that review."
+  }
+}

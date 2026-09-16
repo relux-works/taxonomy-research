@@ -1,0 +1,535 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-16T10:58:30.374062+00:00",
+  "seed": 260916,
+  "repetitions": 2,
+  "arms": [
+    "terse-control",
+    "original-clean",
+    "original-instrumented",
+    "semantic-clean",
+    "semantic-instrumented"
+  ],
+  "case_count": 8,
+  "scheduled_cells": 80,
+  "combined_intervention_limitation": "Instrumented arms combine source tagging with an annotation request; the pilot cannot isolate ID causality.",
+  "claim_limit": "Annotations are model claims about observable spans, not internal reasoning or proof of provenance.",
+  "go_no_go": {
+    "go_only_if": "Raw responses and independent checks yield auditable exact-span mappings and at least one concrete nontrivial insight, without material unexplained answer corruption from annotation.",
+    "no_go_if": "Mappings are mostly invalid or unsupported, matrix evidence is incomplete, or annotation materially corrupts required content.",
+    "scope": "Exploratory pilot; no significance or equivalence claim."
+  },
+  "cases": [
+    {
+      "id": "auth-near-example",
+      "prompt": "Explain briefly why auth middleware rejects a valid token when its expiry equals the current timestamp, and give the precise comparison fix.",
+      "category": "near-example",
+      "eligible_keys": [
+        "short-synonym-pairs",
+        "terse-auth-example",
+        "substance-exactness",
+        "polarity-limits",
+        "no-caricature"
+      ],
+      "required_exact": [
+        "<",
+        "<="
+      ]
+    },
+    {
+      "id": "react-near-example",
+      "prompt": "Why does a React child re-render when its parent passes an inline object prop? Give one concrete fix.",
+      "category": "near-example",
+      "eligible_keys": [
+        "short-synonym-pairs",
+        "react-full-example",
+        "substance-exactness",
+        "no-caricature"
+      ],
+      "required_exact": [
+        "useMemo"
+      ]
+    },
+    {
+      "id": "cache-novel-paraphrase",
+      "prompt": "Explain a cache stampede to an experienced engineer and name one mitigation. Be concise.",
+      "category": "novel-paraphrase",
+      "eligible_keys": [
+        "short-synonym-pairs",
+        "substance-exactness",
+        "no-caricature"
+      ],
+      "required_exact": []
+    },
+    {
+      "id": "exact-preservation",
+      "prompt": "Answer in one short sentence: `/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1. Preserve every backticked item, the word not, the spacing in `250 ms`, and v2.4.1 exactly.",
+      "category": "exact-code-path-error-number-negation",
+      "eligible_keys": [
+        "substance-exactness",
+        "polarity-limits"
+      ],
+      "required_exact": [
+        "/srv/app/config.yaml",
+        "E_CONN_RESET",
+        "250 ms",
+        "not",
+        "v2.4.1"
+      ]
+    },
+    {
+      "id": "russian-language",
+      "prompt": "Кратко объясни по-русски, почему HTTP 429 требует exponential backoff. Не переводи HTTP 429 и Retry-After.",
+      "category": "language-handling",
+      "eligible_keys": [
+        "substance-exactness",
+        "polarity-limits",
+        "language",
+        "no-caricature"
+      ],
+      "required_exact": [
+        "HTTP 429",
+        "Retry-After"
+      ],
+      "language": "ru"
+    },
+    {
+      "id": "artifact-boundary",
+      "prompt": "Write a two-sentence README paragraph for users explaining that the backup is created before migration and can be restored if migration fails. This is persisted documentation, so use normal professional prose.",
+      "category": "normal-prose-artifact-boundary",
+      "eligible_keys": [
+        "artifact-boundary",
+        "substance-exactness"
+      ],
+      "required_exact": [],
+      "normal_prose": true
+    },
+    {
+      "id": "destructive-clarity",
+      "prompt": "Give a clear warning and three ordered steps for permanently deleting the production users table. Require a verified backup before the DROP TABLE command and state that the operation cannot be undone.",
+      "category": "auto-clarity-and-order",
+      "eligible_keys": [
+        "auto-clarity",
+        "substance-exactness",
+        "polarity-limits"
+      ],
+      "required_exact": [
+        "DROP TABLE"
+      ],
+      "explicit_warning": true
+    },
+    {
+      "id": "neutral-arithmetic",
+      "prompt": "What is 17 × 19? Give the result and one sentence showing the arithmetic.",
+      "category": "neutral-control",
+      "eligible_keys": [
+        "substance-exactness"
+      ],
+      "required_exact": [
+        "323"
+      ]
+    }
+  ],
+  "schedule": [
+    {
+      "repetition": 2,
+      "case_id": "react-near-example",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "auth-near-example",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "exact-preservation",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "neutral-arithmetic",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 2,
+      "case_id": "artifact-boundary",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "react-near-example",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 2,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "neutral-arithmetic",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "neutral-arithmetic",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "react-near-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "auth-near-example",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "auth-near-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "auth-near-example",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 2,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "auth-near-example",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "neutral-arithmetic",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "destructive-clarity",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "exact-preservation",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "artifact-boundary",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "destructive-clarity",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "auth-near-example",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "destructive-clarity",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "artifact-boundary",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "exact-preservation",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "exact-preservation",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "exact-preservation",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "neutral-arithmetic",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "artifact-boundary",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "exact-preservation",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "neutral-arithmetic",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "exact-preservation",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 2,
+      "case_id": "react-near-example",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "react-near-example",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "auth-near-example",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "react-near-example",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "auth-near-example",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "exact-preservation",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "react-near-example",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "neutral-arithmetic",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "artifact-boundary",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "destructive-clarity",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "neutral-arithmetic",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "neutral-arithmetic",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "destructive-clarity",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 1,
+      "case_id": "react-near-example",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "exact-preservation",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 2,
+      "case_id": "react-near-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "destructive-clarity",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 2,
+      "case_id": "destructive-clarity",
+      "arm": "terse-control"
+    },
+    {
+      "repetition": 2,
+      "case_id": "destructive-clarity",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "artifact-boundary",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "auth-near-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "neutral-arithmetic",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "cache-novel-paraphrase",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "auth-near-example",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "artifact-boundary",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "react-near-example",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "exact-preservation",
+      "arm": "semantic-clean"
+    },
+    {
+      "repetition": 2,
+      "case_id": "artifact-boundary",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "artifact-boundary",
+      "arm": "original-clean"
+    },
+    {
+      "repetition": 1,
+      "case_id": "artifact-boundary",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "destructive-clarity",
+      "arm": "semantic-instrumented"
+    },
+    {
+      "repetition": 1,
+      "case_id": "destructive-clarity",
+      "arm": "original-instrumented"
+    },
+    {
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "semantic-clean"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "review_kind": "independent observable relationship review",
+  "limits": [
+    "These are independent model-review judgments, not human ground truth and not evidence of causal instruction use.",
+    "Compatibility means the actual segment is observably consistent with the full cited source fragment in the supplied task context.",
+    "Contradicted means the emitted relation is false or the segment violates the cited rule under an explicit task requirement.",
+    "Insufficient-evidence preserves absence-based, baseline-dependent, or otherwise undecidable claims.",
+    "Prompt-supplied React terms can support observable compatibility but cannot distinguish prompt influence from skill influence.",
+    "The case applicability map was treated as a prior, not as a semantic oracle."
+  ],
+  "rubric": {
+    "literal": "Require a meaningful shared phrase or construction, not merely a valid ID, copied source quote, or generic/common token.",
+    "rule_compatibility": "Require an independently checkable task fact such as exact required artifacts, explicit polarity, explicit output language, or persisted-artifact prose. Failure of an explicit requirement contradicts an exactness claim.",
+    "omission": "Count only an un-emitted relationship that the same rubric can positively establish. Do not call an absent ID a causal false negative.",
+    "uncertainty": "Use insufficient-evidence for no-caricature, growth-versus-baseline, and generic language/style claims lacking enough context."
+  },
+  "coverage": {
+    "returned_links_reviewed": 27,
+    "returned_links_total": 27,
+    "tagged_responses_reviewed": 48,
+    "tagged_responses_total": 48,
+    "tagged_segments_reviewed": 56,
+    "tagged_segments_total": 56,
+    "candidate_pairs_available": 309,
+    "sampling": "none; every emitted link and every tagged response/segment was inspected",
+    "returned_link_judgment_counts": {
+      "compatible": 18,
+      "contradicted": 7,
+      "insufficient-evidence": 2
+    },
+    "observable_omissions": 17,
+    "tagged_responses_with_independently_checkable_answer_violations": 17,
+    "answer_pollution_responses": 0
+  },
+  "emitted_link_assessments": [
+    {
+      "packet_index": 1,
+      "claim_id": "haiku--r2-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "The segment preserves HTTP 429 and exponential backoff exactly; the truncated source_quote makes metadata invalid but does not negate observable exactness."
+    },
+    {
+      "packet_index": 2,
+      "claim_id": "haiku--r2-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-04",
+      "judgment": "compatible",
+      "rationale": "The task is explicitly Russian and this emitted line is Russian while retaining the requested technical terms."
+    },
+    {
+      "packet_index": 3,
+      "claim_id": "haiku--r2-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "The segment preserves Retry-After exactly; its source_quote is truncated, so structural metadata validity is a separate failure."
+    },
+    {
+      "packet_index": 4,
+      "claim_id": "stronger--r1-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "All five task-required artifacts are preserved exactly in the reconstructed answer."
+    },
+    {
+      "packet_index": 5,
+      "claim_id": "stronger--r1-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-02",
+      "judgment": "compatible",
+      "rationale": "The explicit phrase must not retry preserves the task's required negative polarity."
+    },
+    {
+      "packet_index": 6,
+      "claim_id": "stronger--r1-normal-prose-artifact-semantic-tagged::segment-0::EVS-17D60B4C-06",
+      "judgment": "compatible",
+      "rationale": "The task explicitly targets a persisted README and the answer is two complete professional prose sentences."
+    },
+    {
+      "packet_index": 7,
+      "claim_id": "stronger--r1-novel-cache-paraphrase-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "contradicted",
+      "rationale": "The task requires exact lowercase cache stampede, but the answer uses capitalized Cache stampede; that contradicts the cited exactness rule."
+    },
+    {
+      "packet_index": 8,
+      "claim_id": "stronger--r1-ordinary-unlinked-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "The task requires one exact arithmetic string and the segment preserves every symbol and number. The applicability prior says none, but that is not a semantic oracle."
+    },
+    {
+      "packet_index": 9,
+      "claim_id": "stronger--r1-original-react-example-original-tagged::segment-0::EVO-0BF09A0A-04",
+      "judgment": "compatible",
+      "rationale": "The segment expresses both the new-reference/re-render mechanism and the useMemo remedy from the full source example; the prompt independently supplies the same content, so no provenance follows."
+    },
+    {
+      "packet_index": 10,
+      "claim_id": "stronger--r1-original-react-example-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "contradicted",
+      "rationale": "The task requires exact lowercase inline object prop, but the answer begins with capitalized Inline; an exactness claim is therefore false even though the explanation is semantically sound."
+    },
+    {
+      "packet_index": 11,
+      "claim_id": "stronger--r1-original-react-example-semantic-tagged::segment-0::EVS-17D60B4C-03",
+      "judgment": "insufficient-evidence",
+      "rationale": "No caricature word is apparent, but the source also claims compression must not grow output and no appropriate baseline establishes that property."
+    },
+    {
+      "packet_index": 12,
+      "claim_id": "stronger--r1-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "This segment preserves HTTP 429 and exponential backoff exactly as explicitly required."
+    },
+    {
+      "packet_index": 13,
+      "claim_id": "stronger--r1-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "This segment preserves Retry-After exactly as explicitly required."
+    },
+    {
+      "packet_index": 14,
+      "claim_id": "stronger--r1-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-04",
+      "judgment": "compatible",
+      "rationale": "The prompt is explicitly Russian and the segment is natural Russian with the required technical term intact."
+    },
+    {
+      "packet_index": 15,
+      "claim_id": "stronger--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "All five explicitly required artifacts are preserved exactly."
+    },
+    {
+      "packet_index": 16,
+      "claim_id": "stronger--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-02",
+      "judgment": "compatible",
+      "rationale": "The answer preserves must not retry and therefore the required polarity."
+    },
+    {
+      "packet_index": 17,
+      "claim_id": "stronger--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-03",
+      "judgment": "insufficient-evidence",
+      "rationale": "The compact wording is not caricatured, but output-growth compatibility cannot be established without a declared baseline; prior inapplicability alone does not contradict it."
+    },
+    {
+      "packet_index": 18,
+      "claim_id": "stronger--r2-normal-prose-artifact-semantic-tagged::segment-0::EVS-17D60B4C-06",
+      "judgment": "compatible",
+      "rationale": "The supplied task is a persisted README and the answer is complete professional prose."
+    },
+    {
+      "packet_index": 19,
+      "claim_id": "stronger--r2-novel-cache-paraphrase-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "contradicted",
+      "rationale": "The emitted literal-overlap relation is absent from the generic source fragment, and capitalized Cache stampede also violates the task's exact lowercase requirement."
+    },
+    {
+      "packet_index": 20,
+      "claim_id": "stronger--r2-novel-cache-paraphrase-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "judgment": "contradicted",
+      "rationale": "request coalescing is preserved, but it does not occur in the cited source fragment; the emitted literal-overlap relation is false."
+    },
+    {
+      "packet_index": 21,
+      "claim_id": "stronger--r2-ordinary-unlinked-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "The exact arithmetic answer preserves all task substance. This is broad compatibility, not evidence that the rule caused the answer."
+    },
+    {
+      "packet_index": 22,
+      "claim_id": "stronger--r2-original-react-example-original-tagged::segment-0::EVO-0BF09A0A-04",
+      "judgment": "compatible",
+      "rationale": "The segment has meaningful overlap with the source's inline-object/new-reference/re-render mechanism; the task itself supplies the same terms, so origin remains unidentifiable."
+    },
+    {
+      "packet_index": 23,
+      "claim_id": "stronger--r2-original-react-example-original-tagged::segment-1::EVO-0BF09A0A-04",
+      "judgment": "compatible",
+      "rationale": "The segment repeats the source example's useMemo remedy and stable-reference meaning. This observable match is fully confounded by the prompt."
+    },
+    {
+      "packet_index": 24,
+      "claim_id": "stronger--r2-original-react-example-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "contradicted",
+      "rationale": "The task requires exact lowercase inline object prop, but the segment begins with capitalized Inline; the cited exactness rule is not satisfied."
+    },
+    {
+      "packet_index": 25,
+      "claim_id": "stronger--r2-original-react-example-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "The segment preserves useMemo exactly and accurately states the stable-reference remedy, although the term is also supplied by the prompt."
+    },
+    {
+      "packet_index": 26,
+      "claim_id": "stronger--r2-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "contradicted",
+      "rationale": "The segment is compatible with exact-term preservation, but the emitted literal-overlap relation is false because HTTP 429 and exponential backoff do not occur in the cited source fragment; the quote is also truncated."
+    },
+    {
+      "packet_index": 27,
+      "claim_id": "stronger--r2-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "judgment": "contradicted",
+      "rationale": "The segment preserves Retry-After, but that token does not occur in the cited source fragment; the emitted literal-overlap relation is false and the quote is truncated."
+    }
+  ],
+  "observable_omissions": [
+    {
+      "claim_id": "haiku--r1-original-react-example-original-tagged::segment-0::EVO-0BF09A0A-04",
+      "judgment": "compatible",
+      "rationale": "The unlinked answer reproduces the source example's mechanism and useMemo remedy; prompt confounding prevents provenance inference."
+    },
+    {
+      "claim_id": "haiku--r2-original-react-example-original-tagged::segment-0::EVO-0BF09A0A-04",
+      "judgment": "compatible",
+      "rationale": "The unlinked answer matches the source example's new-reference/re-render mechanism and useMemo remedy."
+    },
+    {
+      "claim_id": "haiku--r1-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "All task-required technical artifacts are preserved exactly but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r1-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-02",
+      "judgment": "compatible",
+      "rationale": "must not retry preserves explicit polarity but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "All task-required technical artifacts are preserved exactly but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-02",
+      "judgment": "compatible",
+      "rationale": "must not retry preserves explicit polarity but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r1-normal-prose-artifact-semantic-tagged::segment-0::EVS-17D60B4C-06",
+      "judgment": "compatible",
+      "rationale": "The task is explicitly a persisted README and the answer is normal professional prose, but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r2-normal-prose-artifact-semantic-tagged::segment-0::EVS-17D60B4C-06",
+      "judgment": "compatible",
+      "rationale": "The task is explicitly a persisted README and the answer is normal professional prose, but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r1-ordinary-unlinked-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "The exact required arithmetic string is fully preserved. The applicability prior is not sufficient reason to exclude this broad observable compatibility."
+    },
+    {
+      "claim_id": "haiku--r2-ordinary-unlinked-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "The exact required arithmetic string is fully preserved, but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r1-original-react-example-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "All three exact prompt terms are preserved and the answer passes the task contract, but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r1-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "judgment": "compatible",
+      "rationale": "HTTP 429, exponential backoff, and Retry-After are all preserved exactly, but no relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r1-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-04",
+      "judgment": "compatible",
+      "rationale": "The explicitly Russian task receives a Russian answer, but no language relationship was emitted."
+    },
+    {
+      "claim_id": "haiku--r2-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-04",
+      "judgment": "compatible",
+      "rationale": "The second emitted line is Russian in an explicitly Russian task, but only the first segment carried the language link."
+    },
+    {
+      "claim_id": "stronger--r1-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-04",
+      "judgment": "compatible",
+      "rationale": "The first segment is Russian in an explicitly Russian task, but the language link appears only on the second segment."
+    },
+    {
+      "claim_id": "stronger--r2-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-04",
+      "judgment": "compatible",
+      "rationale": "The segment is Russian in an explicitly Russian task, but no language relationship was emitted."
+    },
+    {
+      "claim_id": "stronger--r2-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-04",
+      "judgment": "compatible",
+      "rationale": "The segment is Russian in an explicitly Russian task, but no language relationship was emitted."
+    }
+  ],
+  "unlinked_output_review": {
+    "method": "All 48 tagged responses and all 56 reconstructed segments were read with their full prompt, answer checks, emitted links, and arm-specific source fragments. Only independently checkable task violations and rubric-positive omissions are recorded.",
+    "answer_violation_groups": [
+      {
+        "kind": "exact-case requirement not preserved",
+        "response_count": 14,
+        "note": "Cache stampede/Request coalescing or Inline object prop capitalization failed an explicitly exact lowercase requirement."
+      },
+      {
+        "kind": "missing whitespace between concatenated segments",
+        "response_count": 4,
+        "note": "The reconstructed answer joins sentence-ending punctuation directly to the next segment; one response is also in the exact-case group."
+      }
+    ],
+    "unique_responses_with_violation": 17,
+    "additional_unflagged_answer_violations": 0,
+    "answer_pollution_responses": 0,
+    "caveat": "The full 120-response aggregate has one non-tagged false-positive sentence probe: stronger--r2-novel-cache-paraphrase-terse-control contains two natural sentences, but a.k.a. makes the regex count three. Article presence was not used as an independent professional-prose judgment."
+  }
+}

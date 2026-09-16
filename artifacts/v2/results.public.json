@@ -1,0 +1,6377 @@
+[
+  {
+    "cell": "haiku--r1-exact-negation-artifacts-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "When `/srv/app/config.yaml` v2.4.1 report `E_CONN_RESET`, must not retry within `250 ms`.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3467,
+      "output_tokens": 1272,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1169
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4405,
+        "outputTokens": 1286,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1169
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-exact-negation-artifacts-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Application v2.4.1 must not retry on E_CONN_RESET in /srv/app/config.yaml after 250 ms.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3741,
+      "output_tokens": 481,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 381
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4679,
+        "outputTokens": 501,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 381
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-exact-negation-artifacts-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "In v2.4.1, when `/srv/app/config.yaml` sets timeout to 250 ms and receives `E_CONN_RESET`, application must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2756,
+      "output_tokens": 411,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 303
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3694,
+        "outputTokens": 425,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 303
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-exact-negation-artifacts-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Config at `/srv/app/config.yaml` handles `E_CONN_RESET` errors with `250 ms` timeout in `v2.4.1`, which must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3121,
+      "output_tokens": 916,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 806
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4059,
+        "outputTokens": 930,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 806
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-exact-negation-artifacts-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "After loading `/srv/app/config.yaml` in v2.4.1, the application encountered an `E_CONN_RESET` error with a `250 ms` timeout and determined it must not retry the connection.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1622,
+      "output_tokens": 316,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 199
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2560,
+        "outputTokens": 330,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 199
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-normal-prose-artifact-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before each migration to ensure data safety. If the migration fails, users can restore the backup to return to the previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3463,
+      "output_tokens": 526,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 429
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4398,
+        "outputTokens": 540,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 429
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-normal-prose-artifact-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before migration begins, ensuring that your data is safely preserved throughout the process.",
+          "links": []
+        },
+        {
+          "text": "If the migration fails for any reason, you can restore your data from the backup to return to the previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3741,
+      "output_tokens": 631,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 494
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4676,
+        "outputTokens": 645,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 494
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-normal-prose-artifact-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is created automatically before each migration to preserve your data. If the migration fails, you can restore your system from the backup at any time.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2754,
+      "output_tokens": 513,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 417
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3689,
+        "outputTokens": 527,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 417
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-normal-prose-artifact-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration begins, allowing you to recover your data if needed. If the migration fails, you can restore your system from this backup to its pre-migration state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3119,
+      "output_tokens": 740,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 624
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4054,
+        "outputTokens": 753,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 624
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-normal-prose-artifact-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration process begins to preserve your data. If the migration fails, users can restore the backup to return to the previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1618,
+      "output_tokens": 367,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 258
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2553,
+        "outputTokens": 381,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 258
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-novel-cache-paraphrase-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede occurs when cached value expires and many concurrent requests simultaneously hit backend, overloading it. Request coalescing prevents this by funneling all concurrent requests through single fetch operation.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3453,
+      "output_tokens": 795,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 689
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4377,
+        "outputTokens": 811,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 689
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-novel-cache-paraphrase-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede happens when expired cache spawns simultaneous backend requests for same data. Request coalescing mitigates this by collapsing redundant requests into single backend call.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3728,
+      "output_tokens": 1348,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1244
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4652,
+        "outputTokens": 1364,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1244
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-novel-cache-paraphrase-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede occurs when cached data expires and concurrent requests simultaneously recompute, overwhelming the backend. Use request coalescing to serialize: first request computes, others wait and reuse the result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2743,
+      "output_tokens": 612,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 494
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3667,
+        "outputTokens": 628,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 494
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-novel-cache-paraphrase-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A cache stampede happens when an expired key triggers a flood of concurrent backend requests simultaneously. Request coalescing mitigates this by serializing regeneration—one request fetches while others await the result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3106,
+      "output_tokens": 459,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 350
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4030,
+        "outputTokens": 475,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 350
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-novel-cache-paraphrase-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A cache stampede occurs when a cached value expires and multiple concurrent requests simultaneously attempt to regenerate it, overwhelming the backend with redundant computation. Request coalescing mitigates this by having only the first request regenerate the cache while others block and reuse the result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1607,
+      "output_tokens": 307,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 174
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2531,
+        "outputTokens": 323,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 174
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-ordinary-unlinked-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3448,
+      "output_tokens": 318,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 241
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4367,
+        "outputTokens": 333,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 241
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-ordinary-unlinked-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3721,
+      "output_tokens": 492,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 415
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4640,
+        "outputTokens": 507,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 415
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-ordinary-unlinked-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2738,
+      "output_tokens": 278,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 201
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3657,
+        "outputTokens": 289,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 201
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-ordinary-unlinked-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3101,
+      "output_tokens": 265,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 188
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4020,
+        "outputTokens": 280,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 188
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-ordinary-unlinked-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1604,
+      "output_tokens": 275,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 198
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2523,
+        "outputTokens": 290,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 198
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-original-react-example-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Each render, parent create new object reference in inline object prop, trigger child re-render. Use `useMemo` to keep same reference across render.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3473,
+      "output_tokens": 1364,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1265
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4418,
+        "outputTokens": 1381,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1265
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-original-react-example-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each render; child sees different reference, re-renders. Wrap in `useMemo` to hold reference stable across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3748,
+      "output_tokens": 1370,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1268
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4693,
+        "outputTokens": 1387,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1268
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-original-react-example-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each render, forcing child re-renders. Wrap in useMemo to preserve reference.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2765,
+      "output_tokens": 585,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 481
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3710,
+        "outputTokens": 600,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 481
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-original-react-example-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Each parent render creates a new object reference in the inline object prop, causing React to treat it as a different value and trigger child re-renders. Use `useMemo` to memoize the inline object prop and preserve the reference across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3127,
+      "output_tokens": 1036,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 918
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4072,
+        "outputTokens": 1053,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 918
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-original-react-example-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "When a parent component passes an inline object prop, a new object reference is created on every parent render, causing React's shallow comparison to detect a change and trigger a child re-render. Using `useMemo` to memoize the object preserves its reference across renders, preventing unnecessary re-renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1629,
+      "output_tokens": 554,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 424
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2574,
+        "outputTokens": 571,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 424
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-russian-language-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, чтобы не перегрузить сервер лавиной повторных запросов. Retry-After в ответе указывает сколько секунд ждать перед повторной попыткой.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3490,
+      "output_tokens": 1961,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1819
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4450,
+        "outputTokens": 1978,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1819
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-russian-language-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, чтобы клиенты не перегружали сервер и не попадали в распределённый запрет. Используй значение Retry-After из заголовка ответа: в нём указано, через сколько секунд повторить запрос — соблюдай эту задержку перед следующей попыткой.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3764,
+      "output_tokens": 566,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 401
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4724,
+        "outputTokens": 583,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 401
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-russian-language-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, чтобы не перегружать сервер повторными попытками при лимите. Используй Retry-After из заголовка для времени следующей попытки.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2777,
+      "output_tokens": 609,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 486
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3737,
+        "outputTokens": 626,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 486
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-russian-language-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, чтобы не перегружать сервер и дать ему время восстановиться после лимита. Retry-After — заголовок в ответе сервера, который указывает точное время ожидания; используй его значение вместо собственного расчёта backoff, если он присутствует.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3141,
+      "output_tokens": 580,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 410
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4101,
+        "outputTokens": 597,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 410
+      }
+    }
+  },
+  {
+    "cell": "haiku--r1-russian-language-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff для предотвращения перегрузки сервера и позволения системе восстановиться, поскольку линейные попытки усугубят проблему. Retry-After указывает клиенту минимальное время ожидания (в секундах или дате) перед следующей попыткой запроса, которое необходимо соблюдать для корректной работы с ограничениями.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1645,
+      "output_tokens": 631,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 434
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2605,
+        "outputTokens": 648,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 434
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-exact-negation-artifacts-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "On E_CONN_RESET in v2.4.1, /srv/app/config.yaml sets timeout 250 ms and must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3465,
+      "output_tokens": 559,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 457
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4403,
+        "outputTokens": 573,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 457
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-exact-negation-artifacts-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Config `/srv/app/config.yaml` v2.4.1 must not retry on `E_CONN_RESET` within `250 ms`.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3743,
+      "output_tokens": 663,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 561
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4681,
+        "outputTokens": 677,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 561
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-exact-negation-artifacts-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Config `/srv/app/config.yaml` v2.4.1 sets timeout to `250 ms` for `E_CONN_RESET`—must not retry on that error.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2756,
+      "output_tokens": 396,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 286
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3694,
+        "outputTokens": 410,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 286
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-exact-negation-artifacts-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Connection to `/srv/app/config.yaml` v2.4.1 failed with E_CONN_RESET after 250 ms—must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3120,
+      "output_tokens": 1374,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1270
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4058,
+        "outputTokens": 1388,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1270
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-exact-negation-artifacts-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "In v2.4.1, if the error E_CONN_RESET occurs within 250 ms of startup as specified in /srv/app/config.yaml, the application must not retry the connection.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1621,
+      "output_tokens": 372,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 259
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2559,
+        "outputTokens": 392,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 259
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-normal-prose-artifact-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before each migration to ensure data safety. If the migration fails, users can restore the database from the backup.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3464,
+      "output_tokens": 395,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 301
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4399,
+        "outputTokens": 408,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 301
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-normal-prose-artifact-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before each migration to preserve your data. If the migration fails, you can restore your database from this backup.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3750,
+      "output_tokens": 770,
+      "cache_creation_input_tokens": 4112,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 644
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4685,
+        "outputTokens": 783,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4112,
+        "thinkingTokens": 644
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-normal-prose-artifact-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before each migration. If the migration fails, users can restore from this backup.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2753,
+      "output_tokens": 610,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 522
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3688,
+        "outputTokens": 623,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 522
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-normal-prose-artifact-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is created automatically before each migration to preserve your data. If the migration fails, users can restore the backup to return to the previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3116,
+      "output_tokens": 461,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 364
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4051,
+        "outputTokens": 475,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 364
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-normal-prose-artifact-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before each migration to ensure data safety. If the migration fails, users can restore their system from the backup to recover their previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1620,
+      "output_tokens": 484,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 375
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2555,
+        "outputTokens": 498,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 375
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-novel-cache-paraphrase-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede occurs when cached data expires and multiple requests simultaneously hit the backend. Request coalescing prevents this by serializing the first request while others wait for its result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3454,
+      "output_tokens": 631,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 529
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4378,
+        "outputTokens": 647,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 529
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-novel-cache-paraphrase-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede occurs when cached item expires and many concurrent requests miss cache simultaneously, overwhelming backend. Request coalescing prevents this—one request fetches fresh data while others wait for result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3730,
+      "output_tokens": 795,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 641
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4654,
+        "outputTokens": 811,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 641
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-novel-cache-paraphrase-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A cache stampede occurs when many concurrent requests miss an expired cache key and simultaneously hit the backend, causing a traffic spike. Request coalescing mitigates this by queuing duplicate requests while the first one populates the cache, then serving all from the single result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2743,
+      "output_tokens": 617,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 495
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3667,
+        "outputTokens": 633,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 495
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-novel-cache-paraphrase-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A cache stampede occurs when many concurrent requests miss a single expired cache entry and all hit the backend simultaneously, overwhelming it. Request coalescing mitigates this by having only one request fetch the value while others wait for and reuse the same result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3107,
+      "output_tokens": 569,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 450
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4031,
+        "outputTokens": 585,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 450
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-novel-cache-paraphrase-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A cache stampede occurs when a cached item expires and numerous concurrent requests simultaneously attempt to recompute or fetch the value from the backend, overwhelming the system. Request coalescing mitigates this by having a single request refresh the cache while others wait for and share the result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1607,
+      "output_tokens": 431,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 297
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2531,
+        "outputTokens": 447,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 297
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-ordinary-unlinked-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3448,
+      "output_tokens": 268,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 191
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4367,
+        "outputTokens": 279,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 191
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-ordinary-unlinked-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3724,
+      "output_tokens": 274,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 197
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4643,
+        "outputTokens": 285,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 197
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-ordinary-unlinked-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2736,
+      "output_tokens": 198,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 121
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3655,
+        "outputTokens": 213,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 121
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-ordinary-unlinked-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3103,
+      "output_tokens": 314,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 237
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4022,
+        "outputTokens": 329,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 237
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-ordinary-unlinked-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1604,
+      "output_tokens": 251,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 174
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2523,
+        "outputTokens": 262,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 174
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-original-react-example-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "An inline object prop creates a new object reference on each render, causing child components to re-render even if values haven't changed.",
+          "links": []
+        },
+        {
+          "text": " Wrap the object in useMemo to preserve the reference across renders and prevent unnecessary child re-renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3474,
+      "output_tokens": 352,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 208
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4419,
+        "outputTokens": 367,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 208
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-original-react-example-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each render, triggering child re-render. Wrap in `useMemo` to preserve reference across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3747,
+      "output_tokens": 1148,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1049
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4692,
+        "outputTokens": 1164,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1049
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-original-react-example-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each render; React's shallow comparison sees different object, child re-renders. Wrap object in `useMemo` to keep same reference across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2763,
+      "output_tokens": 681,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 574
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3708,
+        "outputTokens": 697,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 574
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-original-react-example-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each render, so child re-renders. Wrap object in useMemo to preserve reference.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3127,
+      "output_tokens": 2507,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2413
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4072,
+        "outputTokens": 2523,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2413
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-original-react-example-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A React child re-renders when its parent passes an inline object prop because each render creates a new object reference, causing React to detect a prop change even if the object's values are identical. The fix is to wrap the object in useMemo to maintain the same reference across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1630,
+      "output_tokens": 406,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 281
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2575,
+        "outputTokens": 423,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 281
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-russian-language-original-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-clean",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 означает ограничение частоты запросов; exponential backoff избегает перегрузки сервера, увеличивая интервалы между попытками. Заголовок Retry-After указывает, сколько секунд (или дату) ждать перед повтором запроса.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3489,
+      "output_tokens": 721,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 572
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4449,
+        "outputTokens": 737,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 572
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-russian-language-original-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "original-tagged",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, чтобы не перегружать сервер при превышении лимита запросов — линейные повторы вызовут ещё больше отказов. Используй значение из заголовка Retry-After (в секундах или дате) для вычисления интервала ожидания перед следующей попыткой.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3766,
+      "output_tokens": 697,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 522
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4726,
+        "outputTokens": 713,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 522
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-russian-language-semantic-clean",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-clean",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff: множество одновременных повторов перегружает сервер, экспоненциальная задержка это предотвращает. Используй Retry-After из заголовка ответа как время следующей попытки.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2779,
+      "output_tokens": 2527,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2391
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3739,
+        "outputTokens": 2544,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2391
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-russian-language-semantic-tagged",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "semantic-tagged",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, чтобы не перегружать сервер повторными запросами при регулировании трафика.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact."
+            },
+            {
+              "rule_id": "EVS-17D60B4C-04",
+              "relation": "rule-compatible",
+              "source_quote": "Preserve user's dominant language in every emitted line. Compress style, not language."
+            }
+          ]
+        },
+        {
+          "text": "Используй значение заголовка Retry-After из ответа сервера как интервал ожидания перед следующей попыткой.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Preserve inline code, identifiers, API names."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3142,
+      "output_tokens": 838,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 481
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 4102,
+        "outputTokens": 855,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 481
+      }
+    }
+  },
+  {
+    "cell": "haiku--r2-russian-language-terse-control",
+    "model_label": "haiku",
+    "requested_model": "claude-haiku-4-5-20251001",
+    "arm": "terse-control",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, чтобы не перегружать сервер повторными запросами и дать ему время на восстановление.",
+          "links": []
+        },
+        {
+          "text": "Retry-After указывает клиенту минимальное время ожидания перед следующей попыткой, что сервер включает в заголовок ответа.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1646,
+      "output_tokens": 434,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 253
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2606,
+        "outputTokens": 451,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 253
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-exact-negation-artifacts-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "In `/srv/app/config.yaml`, v2.4.1 must not retry after E_CONN_RESET within 250 ms.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 124,
+      "cache_creation_input_tokens": 598,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 15
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 124,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 598,
+        "thinkingTokens": 15
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-exact-negation-artifacts-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "`/srv/app/config.yaml` v2.4.1 throw E_CONN_RESET at 250 ms; must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 133,
+      "cache_creation_input_tokens": 599,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 24
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 19,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 133,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 599,
+        "thinkingTokens": 24
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-exact-negation-artifacts-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "`/srv/app/config.yaml` v2.4.1 hits `E_CONN_RESET` after `250 ms`; must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 129,
+      "cache_creation_input_tokens": 597,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 17
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 129,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 597,
+        "thinkingTokens": 17
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-exact-negation-artifacts-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "`v2.4.1` reads `/srv/app/config.yaml`, hits `E_CONN_RESET` at `250 ms`, must not retry.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            },
+            {
+              "rule_id": "EVS-17D60B4C-02",
+              "relation": "rule-compatible",
+              "source_quote": "Never drop not/never/no/only/except: polarity and limits control meaning."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 4,
+      "output_tokens": 765,
+      "cache_creation_input_tokens": 1140,
+      "cache_read_input_tokens": 6945,
+      "output_tokens_details": {
+        "thinking_tokens": 175
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 4,
+        "outputTokens": 765,
+        "cacheReadInputTokens": 6945,
+        "cacheCreationInputTokens": 1140,
+        "thinkingTokens": 175
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-exact-negation-artifacts-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "In v2.4.1, after `/srv/app/config.yaml` reported an `E_CONN_RESET` error within 250 ms, the client must not retry the connection.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 139,
+      "cache_creation_input_tokens": 600,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 19
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 20,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 139,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 600,
+        "thinkingTokens": 19
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-normal-prose-artifact-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration process begins. If the migration fails, users can restore the backup to return their data to its previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 193,
+      "cache_creation_input_tokens": 594,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 48
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 193,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 594,
+        "thinkingTokens": 48
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-normal-prose-artifact-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration begins. If the migration fails, users can restore the backup to return the system to its previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 180,
+      "cache_creation_input_tokens": 593,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 36
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 180,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 593,
+        "thinkingTokens": 36
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-normal-prose-artifact-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration begins, ensuring that your existing data is preserved. If the migration fails for any reason, you can restore the backup to return your system to its previous working state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 169,
+      "cache_creation_input_tokens": 593,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 46
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 169,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 593,
+        "thinkingTokens": 46
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-normal-prose-artifact-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration process begins. If the migration fails, users can restore the backup to return the system to its previous working state.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-06",
+              "relation": "rule-compatible",
+              "source_quote": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 263,
+      "cache_creation_input_tokens": 593,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 58
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 263,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 593,
+        "thinkingTokens": 58
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-normal-prose-artifact-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "normal-prose-artifact",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Before any migration begins, a backup of your existing data is automatically created and stored in a safe location. If the migration fails for any reason, you can use this backup to restore your system to its previous working state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 148,
+      "cache_creation_input_tokens": 594,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 23
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 148,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 594,
+        "thinkingTokens": 23
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-novel-cache-paraphrase-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: hot key expires, many concurrent requests miss cache same instant, all hit backend/DB at once, load spikes. Fix via request coalescing: single request rebuilds cache, others wait then read result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 301,
+      "cache_creation_input_tokens": 581,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 95
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 301,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 581,
+        "thinkingTokens": 95
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-novel-cache-paraphrase-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: hot key expires, many concurrent requests miss cache same instant, all hammer backend at once. Fix: request coalescing — merge concurrent requests for same key into one origin fetch, rest wait and reuse result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 354,
+      "cache_creation_input_tokens": 4578,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 136
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 354,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4578,
+        "thinkingTokens": 136
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-novel-cache-paraphrase-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: hot key expires, many concurrent requests miss simultaneously, all hit backend at once, load spikes hard. Fix: request coalescing — single fetch serves waiters, refill cache once.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 133,
+      "cache_creation_input_tokens": 578,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 133,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 578,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-novel-cache-paraphrase-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: popular key expires, many concurrent requests miss at once, all slam backend simultaneously, overload it. Fix: request coalescing — one request fetches, rest wait, reuse result.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 371,
+      "cache_creation_input_tokens": 580,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 126
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 371,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 580,
+        "thinkingTokens": 126
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-novel-cache-paraphrase-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A cache stampede occurs when a popular cache key expires (or is invalidated) and many concurrent requests simultaneously miss the cache and hammer the backend/database trying to regenerate the same value. The standard mitigation is request coalescing, where only one thread/process is allowed to recompute the value while others wait for and reuse that in-flight result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 175,
+      "cache_creation_input_tokens": 581,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 175,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 581,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-ordinary-unlinked-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 73,
+      "cache_creation_input_tokens": 565,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 73,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 565,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-ordinary-unlinked-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 73,
+      "cache_creation_input_tokens": 564,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 73,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 564,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-ordinary-unlinked-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 73,
+      "cache_creation_input_tokens": 3250,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 73,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 3250,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-ordinary-unlinked-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 199,
+      "cache_creation_input_tokens": 564,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 12
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 199,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 564,
+        "thinkingTokens": 12
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-ordinary-unlinked-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "ordinary-unlinked",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 73,
+      "cache_creation_input_tokens": 1608,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 73,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 1608,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-original-react-example-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Each render, inline object prop creates new object reference, so child sees changed prop and re-renders. Wrap object in `useMemo` to keep reference stable across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 214,
+      "cache_creation_input_tokens": 4258,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 44
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 214,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 4258,
+        "thinkingTokens": 44
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-original-react-example-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Each render, inline object prop makes new object reference, so child sees prop change and re-renders. Wrap object in `useMemo` to keep same reference across renders.",
+          "links": [
+            {
+              "rule_id": "EVO-0BF09A0A-04",
+              "relation": "rule-compatible",
+              "source_quote": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\""
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 388,
+      "cache_creation_input_tokens": 609,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 139
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 388,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 609,
+        "thinkingTokens": 139
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-original-react-example-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each parent render, so child sees changed prop and re-renders. Wrap object in `useMemo` to keep same reference across renders unless deps change.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 214,
+      "cache_creation_input_tokens": 606,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 33
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 214,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 606,
+        "thinkingTokens": 33
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-original-react-example-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each parent render, so child sees changed prop and re-renders. Wrap object in `useMemo` to keep same reference across renders, skip re-render.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            },
+            {
+              "rule_id": "EVS-17D60B4C-03",
+              "relation": "rule-compatible",
+              "source_quote": "Never ADD word to sound caveman. Compression must not grow output."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 472,
+      "cache_creation_input_tokens": 608,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 118
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 472,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 608,
+        "thinkingTokens": 118
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-original-react-example-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "original-react-example",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "When a parent re-renders and passes an inline object prop to a child, JavaScript creates a new object reference on every render, so even if a memoized child uses React.memo, the shallow prop comparison fails and triggers a re-render. To fix this, wrap the object creation in useMemo so the same reference is reused across renders unless its dependencies change, allowing React.memo to correctly skip unnecessary re-renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 217,
+      "cache_creation_input_tokens": 609,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 19
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 217,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 609,
+        "thinkingTokens": 19
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-russian-language-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 сигналит перегрузку сервера, поэтому exponential backoff нужен, чтобы повторные запросы не усиливали нагрузку, увеличивая паузу между попытками.",
+          "links": []
+        },
+        {
+          "text": "Если сервер прислал Retry-After, клиент должен подождать именно указанное в нём время перед следующей попыткой, а не полагаться только на свой расчёт.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 229,
+      "cache_creation_input_tokens": 611,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 26
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 229,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 611,
+        "thinkingTokens": 26
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-russian-language-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 сигналит перегрузку сервера, потому exponential backoff нужен: повторы с растущей паузой снижают нагрузку и риск повторной блокировки.",
+          "links": []
+        },
+        {
+          "text": "Заголовок Retry-After задаёт точное время ожидания перед следующей попыткой — используй его значение вместо расчёта паузы вручную.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 440,
+      "cache_creation_input_tokens": 612,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 250
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 440,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 612,
+        "thinkingTokens": 250
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-russian-language-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 значит сервер перегружен запросами, exponential backoff нужен — растущие паузы снижают нагрузку и шанс повтора отказа.",
+          "links": []
+        },
+        {
+          "text": "Если есть Retry-After — бери время ожидания оттуда, не считай сам.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 369,
+      "cache_creation_input_tokens": 612,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 209
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 369,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 612,
+        "thinkingTokens": 209
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-russian-language-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 значит сервер перегружен, мгновенный повтор только вредит — нужен exponential backoff, чтобы пауза между попытками росла.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        },
+        {
+          "text": " Если в ответе есть Retry-After, бери оттуда точное время ожидания вместо своего расчёта.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            },
+            {
+              "rule_id": "EVS-17D60B4C-04",
+              "relation": "rule-compatible",
+              "source_quote": "Preserve user's dominant language in every emitted line. Compress style, not language."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 702,
+      "cache_creation_input_tokens": 612,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 248
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 702,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 612,
+        "thinkingTokens": 248
+      }
+    }
+  },
+  {
+    "cell": "stronger--r1-russian-language-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, потому что повторные немедленные запросы усиливают нагрузку на сервер и продлевают состояние ограничения скорости. Правильный подход — использовать значение заголовка Retry-After, чтобы задержать следующий запрос ровно на указанное время, а не подбирать интервал вслепую.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 180,
+      "cache_creation_input_tokens": 612,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 21,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 180,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 612,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-exact-negation-artifacts-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "`/srv/app/config.yaml` in `v2.4.1` shows `E_CONN_RESET` after `250 ms`, so client must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 183,
+      "cache_creation_input_tokens": 600,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 17
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 183,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 600,
+        "thinkingTokens": 17
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-exact-negation-artifacts-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "In `/srv/app/config.yaml` on `v2.4.1`, when `E_CONN_RESET` hits within `250 ms`, it must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 133,
+      "cache_creation_input_tokens": 600,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 15
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 133,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 600,
+        "thinkingTokens": 15
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-exact-negation-artifacts-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "`/srv/app/config.yaml` in `v2.4.1` throws `E_CONN_RESET` after `250 ms`; must not retry.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 211,
+      "cache_creation_input_tokens": 600,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 49
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 19,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 211,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 600,
+        "thinkingTokens": 49
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-exact-negation-artifacts-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "`/srv/app/config.yaml` v2.4.1 hit `E_CONN_RESET` after 250 ms; must not retry.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            },
+            {
+              "rule_id": "EVS-17D60B4C-02",
+              "relation": "rule-compatible",
+              "source_quote": "Never drop not/never/no/only/except: polarity and limits control meaning."
+            },
+            {
+              "rule_id": "EVS-17D60B4C-03",
+              "relation": "rule-compatible",
+              "source_quote": "Never ADD word to sound caveman. Compression must not grow output."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 374,
+      "cache_creation_input_tokens": 598,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 28
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 374,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 598,
+        "thinkingTokens": 28
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-exact-negation-artifacts-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "exact-negation-artifacts",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "After version `v2.4.1` failed to load `/srv/app/config.yaml`, it threw `E_CONN_RESET` within `250 ms`, so the client must not retry the request.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 191,
+      "cache_creation_input_tokens": 600,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 65
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 938,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 191,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 600,
+        "thinkingTokens": 65
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-normal-prose-artifact-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is created automatically before the migration process begins. If the migration fails, users can restore the backup to return the system to its previous working state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 135,
+      "cache_creation_input_tokens": 594,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 29
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 135,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 594,
+        "thinkingTokens": 29
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-normal-prose-artifact-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration process begins. If the migration fails, users can restore the backup to return the system to its previous state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 174,
+      "cache_creation_input_tokens": 593,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 68
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 174,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 593,
+        "thinkingTokens": 68
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-normal-prose-artifact-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration begins, ensuring your existing data is preserved. If the migration fails for any reason, you can restore this backup to return the system to its previous working state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 166,
+      "cache_creation_input_tokens": 594,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 44
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 166,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 594,
+        "thinkingTokens": 44
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-normal-prose-artifact-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration process begins. If the migration fails for any reason, users can restore the backup to return their data to its previous state.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-06",
+              "relation": "rule-compatible",
+              "source_quote": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 237,
+      "cache_creation_input_tokens": 590,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 29
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 237,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 590,
+        "thinkingTokens": 29
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-normal-prose-artifact-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "normal-prose-artifact",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A backup is automatically created before the migration process begins. If the migration fails, users can restore the backup to return the system to its previous working state.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 129,
+      "cache_creation_input_tokens": 594,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 22
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 935,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 129,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 594,
+        "thinkingTokens": 22
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-novel-cache-paraphrase-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: many concurrent requests miss expired/cold key same time, all hit backend at once, overload it. Fix via request coalescing — first miss fetches, others wait and reuse that result, no duplicate backend hits.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 166,
+      "cache_creation_input_tokens": 580,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 27
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 166,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 580,
+        "thinkingTokens": 27
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-novel-cache-paraphrase-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: key expires, many concurrent requests all miss cache same time, all hit DB at once. Fix with request coalescing: single in-flight fetch per key, others wait share result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 222,
+      "cache_creation_input_tokens": 580,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 34
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 222,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 580,
+        "thinkingTokens": 34
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-novel-cache-paraphrase-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: key expires, many concurrent requests hit backend simultaneously, overload risk. Fix via request coalescing — single fetch serves all waiters, rest wait on result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 146,
+      "cache_creation_input_tokens": 581,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 20
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 11,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 146,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 581,
+        "thinkingTokens": 20
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-novel-cache-paraphrase-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Cache stampede: key expires, many concurrent requests miss cache same time, all hit backend/DB at once, load spikes hard.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "literal-overlap",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        },
+        {
+          "text": " Fix with request coalescing: only one request rebuilds cache, others wait/reuse result.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "literal-overlap",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 424,
+      "cache_creation_input_tokens": 578,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 54
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 424,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 578,
+        "thinkingTokens": 54
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-novel-cache-paraphrase-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "novel-cache-paraphrase",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "A cache stampede occurs when a popular cache key expires (or is evicted) and a burst of concurrent requests all miss simultaneously, each independently hitting the backend/database to regenerate the same value, causing a load spike or even cascading failure. The standard mitigation is request coalescing (a.k.a. single-flight or dogpile prevention), where only one request is allowed to recompute the value while the rest wait for and reuse that in-flight result.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 224,
+      "cache_creation_input_tokens": 579,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 15
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 924,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 224,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 579,
+        "thinkingTokens": 15
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-ordinary-unlinked-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 4,
+      "output_tokens": 173,
+      "cache_creation_input_tokens": 736,
+      "cache_read_input_tokens": 7864,
+      "output_tokens_details": {
+        "thinking_tokens": 19
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 4,
+        "outputTokens": 173,
+        "cacheReadInputTokens": 7864,
+        "cacheCreationInputTokens": 736,
+        "thinkingTokens": 19
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-ordinary-unlinked-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 105,
+      "cache_creation_input_tokens": 565,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 31
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 105,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 565,
+        "thinkingTokens": 31
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-ordinary-unlinked-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 73,
+      "cache_creation_input_tokens": 565,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 10,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 73,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 565,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-ordinary-unlinked-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 183,
+      "cache_creation_input_tokens": 566,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 11,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 183,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 566,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-ordinary-unlinked-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "ordinary-unlinked",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "17 × 19 = 323",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 73,
+      "cache_creation_input_tokens": 564,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 73,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 564,
+        "thinkingTokens": 0
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-original-react-example-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Child re-renders because inline object prop create new object reference on every parent render, breaking shallow equality check. Wrap object in `useMemo` so reference stay stable across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 211,
+      "cache_creation_input_tokens": 609,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 35
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 211,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 609,
+        "thinkingTokens": 35
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-original-react-example-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference on every render, so React sees prop changed and child re-renders.",
+          "links": [
+            {
+              "rule_id": "EVO-0BF09A0A-04",
+              "relation": "literal-overlap",
+              "source_quote": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\""
+            }
+          ]
+        },
+        {
+          "text": "Wrap object in useMemo so reference stays stable across renders, skipping unneeded re-render.",
+          "links": [
+            {
+              "rule_id": "EVO-0BF09A0A-04",
+              "relation": "literal-overlap",
+              "source_quote": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\""
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 641,
+      "cache_creation_input_tokens": 608,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 339
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 641,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 608,
+        "thinkingTokens": 339
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-original-react-example-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Parent's inline object prop makes new object reference each render, breaks equality check, child re-renders. Wrap object in useMemo for stable reference across renders.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 192,
+      "cache_creation_input_tokens": 608,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 77
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 192,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 608,
+        "thinkingTokens": 77
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-original-react-example-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "Inline object prop creates new object reference each parent render, causing child to re-render even if data same.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        },
+        {
+          "text": " Wrap object in useMemo to keep stable reference across renders.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "rule-compatible",
+              "source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 573,
+      "cache_creation_input_tokens": 607,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 219
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 573,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 607,
+        "thinkingTokens": 219
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-original-react-example-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "original-react-example",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "When a parent re-renders, an inline object prop is recreated as a new object reference on every render, so a child using React.memo still re-renders because shallow prop comparison sees a different reference even if the contents are identical.\nTo fix this, wrap the object creation in useMemo (e.g., `const style = useMemo(() => ({ color }), [color]);`) so the same reference is passed unless its dependencies change.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 212,
+      "cache_creation_input_tokens": 609,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 16
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 945,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 212,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 609,
+        "thinkingTokens": 16
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-russian-language-original-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-clean",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 значит сервер перегружен, повтор сразу лишь хуже нагрузит — нужен exponential backoff для роста пауз между попытками. Если ответ содержит Retry-After, бери паузу оттуда точно, иначе применяй exponential backoff по умолчанию.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 345,
+      "cache_creation_input_tokens": 611,
+      "cache_read_input_tokens": 3649,
+      "output_tokens_details": {
+        "thinking_tokens": 79
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 21,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 345,
+        "cacheReadInputTokens": 3649,
+        "cacheCreationInputTokens": 611,
+        "thinkingTokens": 79
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-russian-language-original-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "original-tagged",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 означает превышение лимита запросов, поэтому exponential backoff увеличивает паузу между повторами постепенно, снижая нагрузку на сервер. Если сервер прислал заголовок Retry-After, клиент должен ждать именно указанное в нём время перед следующей попыткой, а не своё расчётное значение.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 672,
+      "cache_creation_input_tokens": 612,
+      "cache_read_input_tokens": 4000,
+      "output_tokens_details": {
+        "thinking_tokens": 491
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 672,
+        "cacheReadInputTokens": 4000,
+        "cacheCreationInputTokens": 612,
+        "thinkingTokens": 491
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-russian-language-semantic-clean",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-clean",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 значит сервер перегружен, exponential backoff снижает нагрузку постепенным увеличением пауз между повторами. Если сервер шлёт Retry-After, ждать указанное там время перед повтором запроса.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 306,
+      "cache_creation_input_tokens": 612,
+      "cache_read_input_tokens": 2684,
+      "output_tokens_details": {
+        "thinking_tokens": 83
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 306,
+        "cacheReadInputTokens": 2684,
+        "cacheCreationInputTokens": 612,
+        "thinkingTokens": 83
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-russian-language-semantic-tagged",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "semantic-tagged",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff — иначе повторные запросы подряд лишь усиливают перегрузку сервера.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "literal-overlap",
+              "source_quote": "Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        },
+        {
+          "text": " Используй Retry-After: жди указанное в нём время перед следующей попыткой.",
+          "links": [
+            {
+              "rule_id": "EVS-17D60B4C-01",
+              "relation": "literal-overlap",
+              "source_quote": "Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units."
+            }
+          ]
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 488,
+      "cache_creation_input_tokens": 612,
+      "cache_read_input_tokens": 3174,
+      "output_tokens_details": {
+        "thinking_tokens": 191
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 21,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 488,
+        "cacheReadInputTokens": 3174,
+        "cacheCreationInputTokens": 612,
+        "thinkingTokens": 191
+      }
+    }
+  },
+  {
+    "cell": "stronger--r2-russian-language-terse-control",
+    "model_label": "stronger",
+    "requested_model": "claude-sonnet-5",
+    "arm": "terse-control",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "transport-success",
+    "response": {
+      "segments": [
+        {
+          "text": "HTTP 429 требует exponential backoff, потому что сервер сигнализирует о перегрузке, и повторные запросы без нарастающей задержки только усилят нагрузку и продлят блокировку. Retry-After нужно использовать так: если заголовок присутствует, ждать указанное в нём время перед повторным запросом, а не полагаться только на собственный расчёт задержки.",
+          "links": []
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2,
+      "output_tokens": 194,
+      "cache_creation_input_tokens": 611,
+      "cache_read_input_tokens": 1042,
+      "output_tokens_details": {
+        "thinking_tokens": 0
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 960,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-sonnet-5": {
+        "canonicalModel": "claude-sonnet-5",
+        "provider": "firstParty",
+        "inputTokens": 2,
+        "outputTokens": 194,
+        "cacheReadInputTokens": 1042,
+        "cacheCreationInputTokens": 611,
+        "thinkingTokens": 0
+      }
+    }
+  }
+]
