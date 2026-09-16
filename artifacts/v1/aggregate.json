@@ -1,0 +1,1254 @@
+{
+  "schema_version": 2,
+  "generated_at": "2026-09-16T11:19:59.794529+00:00",
+  "analysis_corrections": {
+    "status": "post-collection rubric correction",
+    "reason": "Independent prereview found that broad probes were mislabeled as semantic support, envelope validity was conflated with provider success, matrix mismatch was diagnostic-only, and auth/React literal expectations were not correctness rubrics.",
+    "semantic_attribution": "unassessed; needs independent review"
+  },
+  "matrix": {
+    "valid": true,
+    "expected_records": 80,
+    "observed_records": 80,
+    "missing": [],
+    "unexpected": [],
+    "duplicates": [],
+    "inconsistent_declared_cells": []
+  },
+  "publication_eligible_matrix": true,
+  "arms": {
+    "terse-control": {
+      "scheduled": 16,
+      "observed": 16,
+      "transport_success": 16,
+      "provider_failed_or_malformed": 0,
+      "valid_responses": 16,
+      "invalid_envelopes": 0,
+      "responses_with_annotations": 0,
+      "annotation_cell_coverage": {
+        "numerator": 0,
+        "denominator": 16
+      },
+      "structurally_valid_annotation_cell_coverage": {
+        "numerator": 0,
+        "denominator": 16
+      },
+      "claims": 0,
+      "structurally_valid_claims": 0,
+      "case_eligible_claims": 0,
+      "annotation_failures": 0,
+      "literal_lexical_probe_passes": 0,
+      "observable_probe_passes": 0,
+      "observable_probe_failures": 0,
+      "semantic_attribution_needs_review": 0,
+      "unsupported_causal_provenance_claims": 0,
+      "artifact_preservation_violations": 0,
+      "artifact_preservation_violation_cells": [],
+      "narrow_lexical_probe_misses": 2,
+      "narrow_lexical_probe_miss_cells": [
+        "r1-auth-near-example-terse-control",
+        "r2-auth-near-example-terse-control"
+      ],
+      "answer_chars": 8852,
+      "mean_answer_chars": 553.25,
+      "annotation_json_chars": 32,
+      "mean_annotation_json_chars": 2.0,
+      "usage": {
+        "input_tokens_sum": 21938,
+        "output_tokens_sum": 9858,
+        "responses_with_real_usage": 16
+      }
+    },
+    "original-clean": {
+      "scheduled": 16,
+      "observed": 16,
+      "transport_success": 16,
+      "provider_failed_or_malformed": 0,
+      "valid_responses": 16,
+      "invalid_envelopes": 0,
+      "responses_with_annotations": 0,
+      "annotation_cell_coverage": {
+        "numerator": 0,
+        "denominator": 16
+      },
+      "structurally_valid_annotation_cell_coverage": {
+        "numerator": 0,
+        "denominator": 16
+      },
+      "claims": 0,
+      "structurally_valid_claims": 0,
+      "case_eligible_claims": 0,
+      "annotation_failures": 0,
+      "literal_lexical_probe_passes": 0,
+      "observable_probe_passes": 0,
+      "observable_probe_failures": 0,
+      "semantic_attribution_needs_review": 0,
+      "unsupported_causal_provenance_claims": 0,
+      "artifact_preservation_violations": 0,
+      "artifact_preservation_violation_cells": [],
+      "narrow_lexical_probe_misses": 0,
+      "narrow_lexical_probe_miss_cells": [],
+      "answer_chars": 5284,
+      "mean_answer_chars": 330.25,
+      "annotation_json_chars": 32,
+      "mean_annotation_json_chars": 2.0,
+      "usage": {
+        "input_tokens_sum": 58888,
+        "output_tokens_sum": 18978,
+        "responses_with_real_usage": 16
+      }
+    },
+    "original-instrumented": {
+      "scheduled": 16,
+      "observed": 16,
+      "transport_success": 16,
+      "provider_failed_or_malformed": 0,
+      "valid_responses": 16,
+      "invalid_envelopes": 0,
+      "responses_with_annotations": 3,
+      "annotation_cell_coverage": {
+        "numerator": 3,
+        "denominator": 16
+      },
+      "structurally_valid_annotation_cell_coverage": {
+        "numerator": 2,
+        "denominator": 16
+      },
+      "claims": 3,
+      "structurally_valid_claims": 2,
+      "case_eligible_claims": 1,
+      "annotation_failures": 2,
+      "literal_lexical_probe_passes": 1,
+      "observable_probe_passes": 0,
+      "observable_probe_failures": 0,
+      "semantic_attribution_needs_review": 1,
+      "unsupported_causal_provenance_claims": 3,
+      "artifact_preservation_violations": 0,
+      "artifact_preservation_violation_cells": [],
+      "narrow_lexical_probe_misses": 1,
+      "narrow_lexical_probe_miss_cells": [
+        "r2-auth-near-example-original-instrumented"
+      ],
+      "answer_chars": 5350,
+      "mean_answer_chars": 334.375,
+      "annotation_json_chars": 294,
+      "mean_annotation_json_chars": 18.375,
+      "usage": {
+        "input_tokens_sum": 60602,
+        "output_tokens_sum": 26487,
+        "responses_with_real_usage": 16
+      }
+    },
+    "semantic-clean": {
+      "scheduled": 16,
+      "observed": 16,
+      "transport_success": 16,
+      "provider_failed_or_malformed": 0,
+      "valid_responses": 16,
+      "invalid_envelopes": 0,
+      "responses_with_annotations": 0,
+      "annotation_cell_coverage": {
+        "numerator": 0,
+        "denominator": 16
+      },
+      "structurally_valid_annotation_cell_coverage": {
+        "numerator": 0,
+        "denominator": 16
+      },
+      "claims": 0,
+      "structurally_valid_claims": 0,
+      "case_eligible_claims": 0,
+      "annotation_failures": 0,
+      "literal_lexical_probe_passes": 0,
+      "observable_probe_passes": 0,
+      "observable_probe_failures": 0,
+      "semantic_attribution_needs_review": 0,
+      "unsupported_causal_provenance_claims": 0,
+      "artifact_preservation_violations": 0,
+      "artifact_preservation_violation_cells": [],
+      "narrow_lexical_probe_misses": 0,
+      "narrow_lexical_probe_miss_cells": [],
+      "answer_chars": 6355,
+      "mean_answer_chars": 397.1875,
+      "annotation_json_chars": 32,
+      "mean_annotation_json_chars": 2.0,
+      "usage": {
+        "input_tokens_sum": 43147,
+        "output_tokens_sum": 10564,
+        "responses_with_real_usage": 16
+      }
+    },
+    "semantic-instrumented": {
+      "scheduled": 16,
+      "observed": 16,
+      "transport_success": 16,
+      "provider_failed_or_malformed": 0,
+      "valid_responses": 16,
+      "invalid_envelopes": 0,
+      "responses_with_annotations": 9,
+      "annotation_cell_coverage": {
+        "numerator": 9,
+        "denominator": 16
+      },
+      "structurally_valid_annotation_cell_coverage": {
+        "numerator": 7,
+        "denominator": 16
+      },
+      "claims": 11,
+      "structurally_valid_claims": 9,
+      "case_eligible_claims": 9,
+      "annotation_failures": 2,
+      "literal_lexical_probe_passes": 0,
+      "observable_probe_passes": 7,
+      "observable_probe_failures": 2,
+      "semantic_attribution_needs_review": 9,
+      "unsupported_causal_provenance_claims": 11,
+      "artifact_preservation_violations": 0,
+      "artifact_preservation_violation_cells": [],
+      "narrow_lexical_probe_misses": 0,
+      "narrow_lexical_probe_miss_cells": [],
+      "answer_chars": 6479,
+      "mean_answer_chars": 404.9375,
+      "annotation_json_chars": 1210,
+      "mean_annotation_json_chars": 75.625,
+      "usage": {
+        "input_tokens_sum": 48411,
+        "output_tokens_sum": 21252,
+        "responses_with_real_usage": 16
+      }
+    }
+  },
+  "paired_clean_vs_instrumented": {
+    "original": {
+      "answer_char_delta": 66,
+      "answer_char_delta_percent": 1.2490537471612415,
+      "annotation_json_chars": 294,
+      "artifact_preservation_violation_delta": 0,
+      "cli_output_token_delta": 7509
+    },
+    "semantic": {
+      "answer_char_delta": 124,
+      "answer_char_delta_percent": 1.951219512195122,
+      "annotation_json_chars": 1210,
+      "artifact_preservation_violation_delta": 0,
+      "cli_output_token_delta": 10688
+    }
+  },
+  "execution": {
+    "requested_models": [
+      "claude-haiku-4-5"
+    ],
+    "model_usage_identities": {
+      "claude-haiku-4-5-20251001": {
+        "canonical_model": "claude-haiku-4-5",
+        "provider": "firstParty"
+      },
+      "claude-haiku-4-5": {
+        "canonical_model": "claude-haiku-4-5",
+        "provider": "firstParty"
+      }
+    },
+    "attempts": 80,
+    "failed_or_timed_out_attempts": 0,
+    "attempts_with_repo_cwd": 0
+  },
+  "checks": [
+    {
+      "cell": "r1-artifact-boundary-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 270,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-artifact-boundary-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 309,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-artifact-boundary-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 226,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-artifact-boundary-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 266,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-artifact-boundary-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 236,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-auth-near-example-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 527,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-auth-near-example-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 382,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-auth-near-example-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 653,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-auth-near-example-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": false,
+          "eligible_for_case": false,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "unassessed",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+          "rule_id": "EVS-17D60B4C-02",
+          "reason": "span match count is 0; expected 1"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 625,
+      "annotation_chars": 114,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-auth-near-example-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 617,
+      "annotation_chars": 2,
+      "exact_preservation_missing": [
+        "<",
+        "<="
+      ]
+    },
+    {
+      "cell": "r1-cache-novel-paraphrase-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 198,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-cache-novel-paraphrase-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 261,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-cache-novel-paraphrase-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 292,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-cache-novel-paraphrase-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 654,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-cache-novel-paraphrase-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 606,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-destructive-clarity-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 1078,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-destructive-clarity-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 761,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-destructive-clarity-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 1212,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-destructive-clarity-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "pass",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "**WARNING:** This operation will permanently delete all rows in the `users` table and cannot be undone. Data loss is irreversible. Proceed only after confirming a verified backup exists.",
+          "rule_id": "EVS-17D60B4C-05",
+          "source_key": "auto-clarity",
+          "reason": "whole-answer warning, backup-before-command, and irreversibility probe"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 1053,
+      "annotation_chars": 227,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-destructive-clarity-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 1224,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-exact-preservation-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 86,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-exact-preservation-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": false,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "unassessed",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Config `/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+          "rule_id": "EVO-0BF09A0A-01",
+          "source_key": "short-synonym-pairs",
+          "reason": "ID was not predeclared eligible for this case"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 93,
+      "annotation_chars": 134,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-exact-preservation-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 93,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-exact-preservation-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "pass",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "`/srv/app/config.yaml` v2.4.1 must not retry `E_CONN_RESET` after exactly `250 ms`.",
+          "rule_id": "EVS-17D60B4C-02",
+          "source_key": "polarity-limits",
+          "reason": "span contains an observable polarity or limit marker"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 83,
+      "annotation_chars": 124,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-exact-preservation-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 86,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-neutral-arithmetic-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 46,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-neutral-arithmetic-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 36,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-neutral-arithmetic-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 35,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-neutral-arithmetic-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 46,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-neutral-arithmetic-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 72,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-react-near-example-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 374,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-react-near-example-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 514,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-react-near-example-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 438,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-react-near-example-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 444,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-react-near-example-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 550,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-russian-language-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 223,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-russian-language-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 416,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-russian-language-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 337,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-russian-language-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "pass",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Часто HTTP 429 приходит с заголовком Retry-After — клиент должен уважать эту паузу",
+          "rule_id": "EVS-17D60B4C-04",
+          "source_key": "language",
+          "reason": "span matches the case's narrow Cyrillic-script probe"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 412,
+      "annotation_chars": 123,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r1-russian-language-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 862,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-artifact-boundary-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 308,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-artifact-boundary-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 210,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-artifact-boundary-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 284,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-artifact-boundary-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 277,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-artifact-boundary-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 205,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-auth-near-example-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 261,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-auth-near-example-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": false,
+          "eligible_for_case": false,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "unassessed",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Token expiry check use `<` not `<=`",
+          "rule_id": "EVO-0BF09A0A-01",
+          "reason": "span match count is 0; expected 1"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 394,
+      "annotation_chars": 76,
+      "exact_preservation_missing": [
+        "<="
+      ]
+    },
+    {
+      "cell": "r2-auth-near-example-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 454,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-auth-near-example-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": false,
+          "eligible_for_case": false,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "unassessed",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+          "rule_id": "EVS-17D60B4C-02",
+          "reason": "span match count is 0; expected 1"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 640,
+      "annotation_chars": 114,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-auth-near-example-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 591,
+      "annotation_chars": 2,
+      "exact_preservation_missing": [
+        "<",
+        "<="
+      ]
+    },
+    {
+      "cell": "r2-cache-novel-paraphrase-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 499,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-cache-novel-paraphrase-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 225,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-cache-novel-paraphrase-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 323,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-cache-novel-paraphrase-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "fail",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Probabilistic early expiration (XFetch)",
+          "rule_id": "EVS-17D60B4C-01",
+          "source_key": "substance-exactness",
+          "reason": "case has no predeclared exact artifact for this observable probe"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 198,
+      "annotation_chars": 80,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-cache-novel-paraphrase-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 642,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-destructive-clarity-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 573,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-destructive-clarity-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 914,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-destructive-clarity-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 911,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-destructive-clarity-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 783,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-destructive-clarity-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 1416,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-exact-preservation-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 94,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-exact-preservation-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 86,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-exact-preservation-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 87,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-exact-preservation-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "pass",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "must not retry",
+          "rule_id": "EVS-17D60B4C-02",
+          "source_key": "polarity-limits",
+          "reason": "span contains an observable polarity or limit marker"
+        },
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "pass",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "`E_CONN_RESET` after exactly `250 ms`",
+          "rule_id": "EVS-17D60B4C-01",
+          "source_key": "substance-exactness",
+          "reason": "required exact artifacts preserved and represented in span"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 87,
+      "annotation_chars": 132,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-exact-preservation-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 86,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-neutral-arithmetic-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 47,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-neutral-arithmetic-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 46,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-neutral-arithmetic-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 75,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-neutral-arithmetic-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 35,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-neutral-arithmetic-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 72,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-react-near-example-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 366,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-react-near-example-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "pass",
+          "observable_probe": "unassessed",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Wrap in `useMemo`",
+          "rule_id": "EVO-0BF09A0A-04",
+          "source_key": "react-full-example",
+          "lexical_matches": [
+            "`useMemo`"
+          ],
+          "reason": "literal cue overlaps mapped source fragment"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 258,
+      "annotation_chars": 58,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-react-near-example-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 394,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-react-near-example-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "fail",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "New object reference each render triggers re-render",
+          "rule_id": "EVS-17D60B4C-01",
+          "source_key": "substance-exactness",
+          "reason": "required exact artifacts preserved and represented in span"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 185,
+      "annotation_chars": 92,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-react-near-example-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 586,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-russian-language-original-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 334,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-russian-language-original-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 445,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-russian-language-semantic-clean",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 541,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-russian-language-semantic-instrumented",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "pass",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "HTTP 429 указывает на превышение лимита частоты запросов. Причины exponential backoff:",
+          "rule_id": "EVS-17D60B4C-04",
+          "source_key": "language",
+          "reason": "span matches the case's narrow Cyrillic-script probe"
+        },
+        {
+          "structurally_valid": true,
+          "eligible_for_case": true,
+          "literal_lexical_probe": "not-applicable",
+          "observable_probe": "pass",
+          "independent_semantic_assessment": "needs-review",
+          "provenance": "unsupported model self-report",
+          "span": "Соблюдение Retry-After.",
+          "rule_id": "EVS-17D60B4C-01",
+          "source_key": "substance-exactness",
+          "reason": "required exact artifacts preserved and represented in span"
+        }
+      ],
+      "envelope_errors": [],
+      "answer_chars": 691,
+      "annotation_chars": 190,
+      "exact_preservation_missing": []
+    },
+    {
+      "cell": "r2-russian-language-terse-control",
+      "transport_status": "success",
+      "envelope_valid": true,
+      "claims": [],
+      "envelope_errors": [],
+      "answer_chars": 1001,
+      "annotation_chars": 2,
+      "exact_preservation_missing": []
+    }
+  ],
+  "interpretation_limits": [
+    "Instrumented arms combine source tagging with an annotation request; the pilot cannot isolate ID causality.",
+    "Annotations are model claims about observable spans, not internal reasoning or proof of provenance.",
+    "Post-collection rubric corrections are not described as predeclared.",
+    "Observable probes are narrow diagnostics, not semantic attribution verdicts.",
+    "Independent semantic attribution remains unassessed and needs review.",
+    "Raw ID counts are not compared as quality because rule granularity differs.",
+    "Current-original and historical-semantic arms differ in version and contract; this is not a pure compression comparison."
+  ]
+}

@@ -1,0 +1,24 @@
+You are participating in a bounded source-aware output diagnostic.
+Return only the required structured envelope. Build the user-visible answer from
+ordered segments. The final answer is the exact concatenation of every `text`
+field; preserve natural prose, whitespace, and code bytes inside those fields.
+
+Each segment has `text` and `links`. `links` may always be empty. Never invent a
+link merely to fill the schema. In clean/control conditions every `links` array
+must be empty. In tagged conditions, a link may use only a listed source ID and
+must copy that ID's complete source quote exactly.
+
+Relations:
+- `literal-overlap`: a distinctive literal phrase or code token occurs in both
+  the output segment and source quote. Common-word coincidence is insufficient.
+- `rule-compatible`: the segment appears observably compatible with a general
+  instruction. This is a model-reported diagnostic that needs independent review.
+- `uncertain`: a relationship may exist but should not be asserted.
+
+A link reports an observable relationship only. It is not private chain of
+thought, causal provenance, or proof that the source produced the answer.
+
+
+Answer concisely.
+
+This is a clean/control condition. Every `links` array must be empty.

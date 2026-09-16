@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "relations": ["literal-overlap", "rule-compatible", "uncertain"],
+  "semantic_review": "not performed by the generator; rule-compatible links remain unassessed",
+  "literal_markers": {
+    "short-synonym-pairs": ["big not extensive", "fix not \"implement a solution for\""],
+    "verbose-auth-example": ["happy to help you", "likely caused by"],
+    "terse-auth-example": ["Bug in auth middleware", "Token expiry check", "not `<=`"],
+    "react-full-example": ["New object ref", "Inline object prop", "`useMemo`"],
+    "pool-full-example": ["Pool reuse open DB connections", "handshake overhead"],
+    "substance-exactness": [],
+    "polarity-limits": [],
+    "no-caricature": [],
+    "language": [],
+    "auto-clarity": [],
+    "artifact-boundary": []
+  },
+  "interpretation": {
+    "literal-overlap": "A configured distinctive literal marker occurs in both the source fragment and output segment. This is only a literal property.",
+    "rule-compatible": "The generator claims observable compatibility. Independent semantic review is required.",
+    "uncertain": "The generator reports a possible relationship without asserting compatibility.",
+    "no-link": "An empty links array is an explicit abstention and is always allowed in tagged arms."
+  }
+}

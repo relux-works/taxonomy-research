@@ -1,0 +1,4150 @@
+[
+  {
+    "cell": "r1-artifact-boundary-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "artifact-boundary",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "A backup of your database is automatically created before any migration begins, ensuring you have a safe recovery point. If the migration fails or encounters an error, you can restore from this backup to return your database to its pre-migration state with no data loss.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3219,
+      "output_tokens": 376,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 253
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3219,
+        "outputTokens": 376,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 253
+      }
+    }
+  },
+  {
+    "cell": "r1-artifact-boundary-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "artifact-boundary",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "## Backup and Recovery\n\nA complete backup is automatically created before the migration begins, ensuring you have a safe recovery point if anything goes wrong. If the migration fails or encounters issues, you can restore your database from this backup with a single command, minimizing data loss and downtime.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3313,
+      "output_tokens": 281,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 151
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3313,
+        "outputTokens": 281,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 151
+      }
+    }
+  },
+  {
+    "cell": "r1-artifact-boundary-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "artifact-boundary",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "A backup of your data is automatically created before migration begins, ensuring no data is lost during the process. If the migration fails or encounters errors, you can restore your original data from this backup at any time.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2510,
+      "output_tokens": 296,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 182
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2510,
+        "outputTokens": 296,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 182
+      }
+    }
+  },
+  {
+    "cell": "r1-artifact-boundary-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "artifact-boundary",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "A backup of your data is automatically created before any migration begins, ensuring that your original state is preserved. If the migration process fails for any reason, you can restore your data from this backup to return to the state before the migration attempt.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2615,
+      "output_tokens": 691,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 571
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2615,
+        "outputTokens": 691,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 571
+      }
+    }
+  },
+  {
+    "cell": "r1-artifact-boundary-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "artifact-boundary",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Before executing the migration process, a backup of your current data is automatically created as a safeguard. If the migration encounters any issues or fails, you can restore your data from this backup to return to your previous state.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1374,
+      "output_tokens": 305,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 188
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1374,
+        "outputTokens": 305,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 188
+      }
+    }
+  },
+  {
+    "cell": "r1-auth-near-example-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "auth-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Bug: Expiry check use `<` (less-than) not `<=` (less-than-or-equal). When current time equals expiry time, `<` evaluates false, token rejected when still valid.\n\n**Fix:**\n```javascript\n// Buggy\nif (currentTime < expiryTime) { /* valid */ }\n\n// Fixed\nif (currentTime <= expiryTime) { /* valid */ }\n```\n\nOr inverse:\n```javascript\n// Buggy\nif (expiryTime <= currentTime) { reject(); }\n\n// Fixed  \nif (expiryTime < currentTime) { reject(); }\n```\n\nToken valid at exact expiry moment; boundary case must use `<=` to include equality.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3210,
+      "output_tokens": 2329,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1924
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3210,
+        "outputTokens": 2329,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1924
+      }
+    }
+  },
+  {
+    "cell": "r1-auth-near-example-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "auth-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Comparison operator use `<` instead of `<=`.\n\nWhen expiry timestamp equals current time, `now < expiry` evaluates false, rejecting valid token at exact boundary.\n\n**Fix:**\n```javascript\nif (now <= expiry) {\n  // token valid\n}\n```\n\nInstead of:\n```javascript\nif (now < expiry) {\n  // token valid\n}\n```\n\n`<=` includes expiry second itself. Token live until and including expiry moment.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3305,
+      "output_tokens": 2436,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2147
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3305,
+        "outputTokens": 2436,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2147
+      }
+    }
+  },
+  {
+    "cell": "r1-auth-near-example-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "auth-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Comparison operator treats equality as expired. Standard bug: checks `now >= token.exp` when should check `now > token.exp`.\n\nToken valid until expiry moment inclusive. `>=` rejects at exact timestamp; `>` rejects after.\n\n**Fix:**\n```javascript\n// Wrong\nif (now >= token.exp) throw new Unauthorized('Token expired');\n\n// Right\nif (now > token.exp) throw new Unauthorized('Token expired');\n```\n\nOr equivalently:\n```javascript\nif (token.exp < now) throw new Unauthorized('Token expired');  // Wrong\nif (token.exp <= now) throw new Unauthorized('Token expired'); // Right\n```\n\nSame issue in other langs: ensure comparison uses `>` or `<=`, not `>=` or `<`.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2499,
+      "output_tokens": 984,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 557
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2499,
+        "outputTokens": 984,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 557
+      }
+    }
+  },
+  {
+    "cell": "r1-auth-near-example-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "auth-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Token is still valid at expiry boundary by convention. Middleware incorrectly uses `>=` or `<=` instead of `>` or `<`, rejecting at equality.\n\n**Buggy:**\n```python\nif current_time >= token_expiry:\n    reject()\n```\n\nAt `current_time = token_expiry`, condition is true → rejected (wrong).\n\n**Fix:**\n```python\nif current_time > token_expiry:\n    reject()\n```\n\nAt `current_time = token_expiry`, condition is false → accepted (correct).\n\nAlternatively, if check is phrased as \"is expired\":\n- Buggy: `if token_expiry < current_time`\n- Fix: `if token_expiry <= current_time`\n\nThe boundary operator must allow equality, not cross it.",
+      "annotations": [
+        {
+          "span": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+          "rule_id": "EVS-17D60B4C-02"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2607,
+      "output_tokens": 1406,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 906
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2607,
+        "outputTokens": 1406,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 906
+      }
+    }
+  },
+  {
+    "cell": "r1-auth-near-example-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "auth-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Auth middleware rejects a valid token when its expiry equals the current timestamp because the code likely uses an inclusive comparison operator (>=) for the expiration check. When currentTime >= tokenExpiry evaluates true at equality, the token is rejected despite technically still being valid at that moment.\n\nThe precise fix is to use strict inequality instead:\n- Change: `if (currentTime >= tokenExpiry)` to `if (currentTime > tokenExpiry)`\n- Or equivalently: `if (tokenExpiry > currentTime)` for acceptance\n\nThis ensures the token remains valid at its expiry timestamp and only becomes invalid after that point.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1363,
+      "output_tokens": 1003,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 595
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1363,
+        "outputTokens": 1003,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 595
+      }
+    }
+  },
+  {
+    "cell": "r1-cache-novel-paraphrase-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Cache key expire. Concurrent requests all see miss, all query DB same time. DB overload, cascade fail.\n\nMitigation: locking. First request recompute cache while others wait. Prevent thundering herd.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3202,
+      "output_tokens": 600,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 479
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 11,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3202,
+        "outputTokens": 600,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 479
+      }
+    }
+  },
+  {
+    "cell": "r1-cache-novel-paraphrase-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Hot cache key expire. Concurrent requests miss simultaneously, all query backend. Thundering herd.\n\nMitigation: probabilistic early expiration. Mark entry stale before hard TTL with low probability. One request refresh, others hit stale entry. Load distributed.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3296,
+      "output_tokens": 3077,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2948
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3296,
+        "outputTokens": 3077,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2948
+      }
+    }
+  },
+  {
+    "cell": "r1-cache-novel-paraphrase-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Cache stampede: popular entry expires, many concurrent requests miss, all hammer backend simultaneously. Sudden load spike.\n\nMitigation: Use probabilistic early expiration (Xfetch). Regenerate key at random time before TTL ends, so only one request rebuilds while others still hit stale copy.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2491,
+      "output_tokens": 352,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 215
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 11,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2491,
+        "outputTokens": 352,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 215
+      }
+    }
+  },
+  {
+    "cell": "r1-cache-novel-paraphrase-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Cache stampede occurs when a cached key expires and multiple concurrent requests simultaneously detect the miss, all hitting the backend database to recompute the value. This floods the database with redundant queries at the same moment, degrading performance sharply.\n\n**One mitigation: probabilistic early expiration (xfetch)**\n\nExpire cache entries slightly early with probability, so individual background requests refresh the value before clients see a miss. Hits the database at a steady trickle rather than a thundering herd.\n\nAlternative quick options: lock-based refresh (serialize recomputation), or set a long TTL with occasional stale values.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2599,
+      "output_tokens": 831,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 492
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2599,
+        "outputTokens": 831,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 492
+      }
+    }
+  },
+  {
+    "cell": "r1-cache-novel-paraphrase-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "A cache stampede occurs when a cached item expires and multiple concurrent requests arrive before the cache can be repopulated, causing them all to bypass the cache and simultaneously hit the backend system. This creates a sudden load spike that can overwhelm your database or origin server.\n\nOne mitigation is **probabilistic early expiration** (xfetch): set a TTL with an additional random expiration window, and when a request during that window detects expiration, it allows the stale value to be served while asynchronously refreshing in the background. This prevents the thundering herd from forming.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1357,
+      "output_tokens": 397,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 201
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1357,
+        "outputTokens": 397,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 201
+      }
+    }
+  },
+  {
+    "cell": "r1-destructive-clarity-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "destructive-clarity",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "**⚠️ WARNING: This will permanently delete all rows in the production `users` table. This operation cannot be undone. Proceed only if you have a verified backup.**\n\n## Three Ordered Steps\n\n**1. Verify and test the backup**\n   - Confirm a recent, verified backup of the production `users` table exists in a secure, independent location.\n   - Restore the backup to a non-production environment and verify data integrity.\n   - Do not proceed until backup restoration succeeds.\n\n**2. Confirm you have database access and correct target**\n   - Connect to the production database.\n   - Run a `SELECT COUNT(*) FROM users;` query to confirm the table and row count.\n   - Take a screenshot or log this confirmation for audit purposes.\n\n**3. Execute the DROP TABLE command**\n   ```sql\n   DROP TABLE users;\n   ```\n   - This removes the entire table definition and all data.\n   - There is no recovery without restoring from the backup verified in Step 1.\n\n**Do not proceed without completing Step 1.** If the backup verification fails, stop and investigate before attempting this operation.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 7005,
+      "output_tokens": 1075,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 493
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 7005,
+        "outputTokens": 1075,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 493
+      }
+    }
+  },
+  {
+    "cell": "r1-destructive-clarity-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "destructive-clarity",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "**WARNING: This operation will permanently delete all rows in the production `users` table and cannot be undone. Data loss is irreversible.**\n\n## Three Ordered Steps\n\n**Step 1: Verify and test the backup**\nConfirm your backup is complete, restorable, and recent. Test restore procedure in a non-production environment.\n\n**Step 2: Verify backup completion before proceeding**\nRun verification query on backup to confirm all user records exist and integrity check passes. Do not proceed to Step 3 until backup verification succeeds.\n\n**Step 3: Execute the DROP TABLE command**\nOnly after backup verification is confirmed, execute:\n```sql\nDROP TABLE users;\n```\n\nOnce Step 3 completes, recovery is not possible. No restore option exists after this command executes.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 7167,
+      "output_tokens": 1438,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1011
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 7167,
+        "outputTokens": 1438,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1011
+      }
+    }
+  },
+  {
+    "cell": "r1-destructive-clarity-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "destructive-clarity",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "**⚠️ WARNING:** This operation will permanently delete all rows in the `users` table on your production database and cannot be undone. Ensure you have verified that a recent backup exists and is restorable before proceeding.\n\n## Steps\n\n**1. Verify backup exists and is restorable**\n   - Confirm a recent backup of your production database exists in your backup system.\n   - Test the backup restoration process in a non-production environment to ensure it works.\n   - Document the backup timestamp and storage location.\n\n**2. Confirm your database connection targets production**\n   - Verify your current database connection is set to your production environment.\n   - Run a safe query (e.g., `SELECT COUNT(*) FROM users;`) to confirm the correct database.\n   - Do not proceed if there is any uncertainty about which environment you are connected to.\n\n**3. Execute the DROP TABLE command**\n   ```sql\n   DROP TABLE users;\n   ```\n\nOnce the command executes, all data in the `users` table is permanently lost. There is no undo or restore within the database itself—recovery is possible only by restoring from the verified backup you confirmed in Step 1.\n\nDo not execute this without completing Steps 1 and 2 in full.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2508,
+      "output_tokens": 857,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 227
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2508,
+        "outputTokens": 857,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 227
+      }
+    }
+  },
+  {
+    "cell": "r1-destructive-clarity-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "destructive-clarity",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "**WARNING:** This operation will permanently delete all rows in the `users` table and cannot be undone. Data loss is irreversible. Proceed only after confirming a verified backup exists.\n\n---\n\n**Steps:**\n\n1. **Verify backup exists.** Connect to your backup system (AWS S3, RDS automated backups, or your chosen backup service) and confirm a recent, tested backup of the production database exists. Document the backup timestamp and test a restore to ensure validity.\n\n2. **Create backup snapshot.** Immediately before the DROP operation, take a final database snapshot or backup:\n   ```sql\n   -- For MySQL/PostgreSQL/etc., take a backup via your administration tool\n   mysqldump -u root -p production_db > users_backup_final.sql\n   ```\n   or use your cloud provider's snapshot feature.\n\n3. **Execute DROP TABLE.** Connect as a superuser with minimal privileges and run:\n   ```sql\n   DROP TABLE users;\n   ```\n\nAfter step 3 completes, all user records are deleted permanently. Recovery is only possible by restoring from the backup created in step 1 or 2.",
+      "annotations": [
+        {
+          "span": "**WARNING:** This operation will permanently delete all rows in the `users` table and cannot be undone. Data loss is irreversible. Proceed only after confirming a verified backup exists.",
+          "rule_id": "EVS-17D60B4C-05"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 5747,
+      "output_tokens": 2239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1592
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 5747,
+        "outputTokens": 2239,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1592
+      }
+    }
+  },
+  {
+    "cell": "r1-destructive-clarity-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "destructive-clarity",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "⚠️ **CRITICAL WARNING**\nPermanently deleting the production users table is an irreversible operation that will destroy all user data. This action cannot be undone. Only proceed if you have an independently verified backup and explicit authorization.\n\n**Three Ordered Steps:**\n\n1. **Verify Backup Integrity** – Connect to your backup system and confirm that a recent, restorable backup of the users table exists. Test the backup restoration process in a staging environment to ensure data can be recovered. Document the backup verification timestamp and location.\n\n2. **Execute DROP TABLE with Explicit Confirmation** – Connect to the production database with elevated privileges and execute:\n   ```sql\n   DROP TABLE users;\n   ```\n   Some systems require adding `CASCADE` to handle dependencies: `DROP TABLE users CASCADE;`\n\n3. **Document the Deletion** – Record the exact timestamp of deletion, the administrator who performed it, the backup location, and the business reason. Notify relevant stakeholders that the operation is complete and irreversible.\n\n**Remember:** Once executed, this command permanently removes the table and all its data. Recovery is only possible through the verified backup you confirmed in Step 1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1374,
+      "output_tokens": 529,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 203
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1374,
+        "outputTokens": 529,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 203
+      }
+    }
+  },
+  {
+    "cell": "r1-exact-preservation-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "exact-preservation",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "`/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3254,
+      "output_tokens": 840,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 731
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 26,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3254,
+        "outputTokens": 840,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 731
+      }
+    }
+  },
+  {
+    "cell": "r1-exact-preservation-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "exact-preservation",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Config `/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+      "annotations": [
+        {
+          "span": "Config `/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+          "rule_id": "EVO-0BF09A0A-01"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3349,
+      "output_tokens": 3112,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2942
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 26,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3349,
+        "outputTokens": 3112,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2942
+      }
+    }
+  },
+  {
+    "cell": "r1-exact-preservation-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "exact-preservation",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Config `/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2543,
+      "output_tokens": 487,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 378
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 33,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2543,
+        "outputTokens": 487,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 378
+      }
+    }
+  },
+  {
+    "cell": "r1-exact-preservation-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "exact-preservation",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "`/srv/app/config.yaml` v2.4.1 must not retry `E_CONN_RESET` after exactly `250 ms`.",
+      "annotations": [
+        {
+          "span": "`/srv/app/config.yaml` v2.4.1 must not retry `E_CONN_RESET` after exactly `250 ms`.",
+          "rule_id": "EVS-17D60B4C-02"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2653,
+      "output_tokens": 1235,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1066
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 26,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2653,
+        "outputTokens": 1235,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1066
+      }
+    }
+  },
+  {
+    "cell": "r1-exact-preservation-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "exact-preservation",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "`/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1410,
+      "output_tokens": 527,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 418
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 26,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1410,
+        "outputTokens": 527,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 418
+      }
+    }
+  },
+  {
+    "cell": "r1-neutral-arithmetic-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "neutral-arithmetic",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "323. 17 × 19 = 17 × (20 - 1) = 340 - 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3200,
+      "output_tokens": 332,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 227
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 11,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3200,
+        "outputTokens": 332,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 227
+      }
+    }
+  },
+  {
+    "cell": "r1-neutral-arithmetic-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "neutral-arithmetic",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "323. 17 × (20 − 1) = 340 − 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3298,
+      "output_tokens": 1465,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1369
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 11,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3298,
+        "outputTokens": 1465,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1369
+      }
+    }
+  },
+  {
+    "cell": "r1-neutral-arithmetic-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "neutral-arithmetic",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "323. 17 × 20 = 340, minus 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2491,
+      "output_tokens": 736,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 643
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2491,
+        "outputTokens": 736,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 643
+      }
+    }
+  },
+  {
+    "cell": "r1-neutral-arithmetic-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "neutral-arithmetic",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "17 × 19 = 323\n\n17 × (20 − 1) = 340 − 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2599,
+      "output_tokens": 526,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 422
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2599,
+        "outputTokens": 526,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 422
+      }
+    }
+  },
+  {
+    "cell": "r1-neutral-arithmetic-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "neutral-arithmetic",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "17 × 19 = 323. This can be calculated as 17 × (20 - 1) = 340 - 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1355,
+      "output_tokens": 381,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 271
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1355,
+        "outputTokens": 381,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 271
+      }
+    }
+  },
+  {
+    "cell": "r1-react-near-example-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "react-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Inline object create new reference each render. React compare props with `===`. New reference trigger re-render even if values identical.\n\nFix: wrap object in `useMemo`:\n\n```jsx\nconst Parent = () => {\n  const style = useMemo(() => ({ color: 'red' }), []);\n  return <Child style={style} />;\n};\n```\n\nObject reference stay same across renders. Child skip unnecessary re-render.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3203,
+      "output_tokens": 773,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 602
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3203,
+        "outputTokens": 773,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 602
+      }
+    }
+  },
+  {
+    "cell": "r1-react-near-example-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "react-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "**Problem:** Inline object creates new reference each render. React sees different prop object, triggers child re-render even if values unchanged.\n\n```javascript\n// Bad: new object every render\n<Child config={{ color: \"red\" }} />\n\n// Good: memoize the object\nconst config = useMemo(() => ({ color: \"red\" }), []);\n<Child config={config} />\n```\n\nReference identity stays same → prop unchanged → child skips re-render.\n\nAlternatively, move object outside component or use `React.memo` on child if props rarely change.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3298,
+      "output_tokens": 774,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 447
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3298,
+        "outputTokens": 774,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 447
+      }
+    }
+  },
+  {
+    "cell": "r1-react-near-example-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "react-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "New object reference each render triggers child re-render. Parent creates new object in memory every render, even if properties match.\n\n**Fix: memoize with `useMemo`**\n\n```jsx\n// Problem\n<Child style={{ color: 'red' }} />  // new object every render\n\n// Solution\nconst style = useMemo(() => ({ color: 'red' }), []);\n<Child style={style} />\n```\n\nObject reference stays same across renders, child won't re-render unless dependencies change.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2494,
+      "output_tokens": 551,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 364
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2494,
+        "outputTokens": 551,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 364
+      }
+    }
+  },
+  {
+    "cell": "r1-react-near-example-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "react-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Inline object creates new reference each render. React sees different prop object, child re-renders even if content identical.\n\n**Fix: wrap with `useMemo`**\n\n```jsx\nfunction Parent() {\n  const config = useMemo(() => ({ key: 'value' }), []);\n  return <Child config={config} />;\n}\n```\n\nObject reference stays stable. Child skips unnecessary re-renders.\n\nAlternative: move object outside component scope or use `useCallback` for factory functions.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2602,
+      "output_tokens": 696,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 400
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2602,
+        "outputTokens": 696,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 400
+      }
+    }
+  },
+  {
+    "cell": "r1-react-near-example-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "react-near-example",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "In React, inline objects are created anew on every render with different memory references. React uses shallow equality to detect prop changes, so a new object reference triggers a child re-render even if values are identical.\n\nOne concrete fix is to use `useMemo` to memoize the object:\n\n```jsx\nimport { useMemo } from 'react'\n\nfunction Parent() {\n  const config = useMemo(() => ({ name: 'John' }), [])\n  return <Child config={config} />\n}\n```\n\nThis ensures the same object reference persists across renders, preventing unnecessary child re-renders.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1358,
+      "output_tokens": 842,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 338
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1358,
+        "outputTokens": 842,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 338
+      }
+    }
+  },
+  {
+    "cell": "r1-russian-language-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 — лимит превышен. Синхронные повторы всех клиентов создают волну запросов, сервер перегружается, новые 429 множатся. Exponential backoff растягивает попытки, пик нагрузки падает, успех растёт. Соблюдай Retry-After.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3220,
+      "output_tokens": 4911,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 4657
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3220,
+        "outputTokens": 4911,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 4657
+      }
+    }
+  },
+  {
+    "cell": "r1-russian-language-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 означает сервер перегружен. Если все клиенты переподключатся одновременно с постоянной или линейной задержкой, сервер получит новый шквал запросов в одно время. Экспоненциальная задержка (2s, 4s, 8s, 16s...) распределяет повторы во времени. Клиенты возвращаются в разные моменты, нагрузка падает, сервер восстанавливается. Если сервер отправляет Retry-After, уважай его значение вместо собственного расчёта.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3317,
+      "output_tokens": 1470,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1063
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3317,
+        "outputTokens": 1470,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1063
+      }
+    }
+  },
+  {
+    "cell": "r1-russian-language-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "Сервер перегружен на HTTP 429. Линейный backoff—все клиенты ждут одинаково, потом одновременно повторяют запросы. Сервер падает ещё больше (thundering herd). Exponential backoff растягивает попытки: 1s, 2s, 4s, 8s… Клиенты разбросаны во времени, сервер восстанавливается. Retry-After подсказывает конкретный интервал—его тоже соблюдайте.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2512,
+      "output_tokens": 1056,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 839
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2512,
+        "outputTokens": 1056,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 839
+      }
+    }
+  },
+  {
+    "cell": "r1-russian-language-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 говорит серверу \"перегруз\". Если все клиенты сразу повторят запрос, перегруз станет ещё хуже.\n\nExponential backoff (2s, 4s, 8s...) распределяет повторные попытки во времени. Это даёт серверу шанс восстановиться без \"камикадзе волны\" одновременных запросов.\n\nЧасто HTTP 429 приходит с заголовком Retry-After — клиент должен уважать эту паузу. Exponential backoff + Retry-After вместе — правильный способ.",
+      "annotations": [
+        {
+          "span": "Часто HTTP 429 приходит с заголовком Retry-After — клиент должен уважать эту паузу",
+          "rule_id": "EVS-17D60B4C-04"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2619,
+      "output_tokens": 755,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 289
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2619,
+        "outputTokens": 755,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 289
+      }
+    }
+  },
+  {
+    "cell": "r1-russian-language-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "russian-language",
+    "repetition": 1,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 требует exponential backoff по следующим причинам:\n\n1. **Защита сервера от перегрузки**: Если все клиенты сразу же повторят запрос, это создаст волну новых запросов и ещё больше перегрузит сервер.\n\n2. **Избежание \"thundering herd\"**: Без экспоненциального увеличения задержки много клиентов синхронизируются и одновременно повторят попытку, вызвав резкий скачок нагрузки.\n\n3. **Даёт время на восстановление**: Постепенное увеличение интервала (1с → 2с → 4с → 8с и т.д.) позволяет серверу восстановиться и вернуться к нормальной работе.\n\n4. **Распределение нагрузки**: Exponential backoff с добавлением случайной задержки (jitter) рассредоточивает повторные попытки разных клиентов во времени.\n\nСервер может указать конкретное время ожидания через заголовок Retry-After, но даже если его нет, клиент должен самостоятельно реализовать exponential backoff.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1377,
+      "output_tokens": 948,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 544
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1377,
+        "outputTokens": 948,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 544
+      }
+    }
+  },
+  {
+    "cell": "r2-artifact-boundary-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "artifact-boundary",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "A backup of your database is automatically created before the migration process begins, ensuring that your data is protected in case any issues occur. If the migration fails or you need to revert to your previous state, you can restore from this backup to return your database to its pre-migration condition.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3218,
+      "output_tokens": 322,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 192
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3218,
+        "outputTokens": 322,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 192
+      }
+    }
+  },
+  {
+    "cell": "r2-artifact-boundary-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "artifact-boundary",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Before any migration runs, a backup of your database is automatically created to preserve your original state. If the migration fails at any point, you can safely restore from this backup without any data loss.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3315,
+      "output_tokens": 356,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 173
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3315,
+        "outputTokens": 356,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 173
+      }
+    }
+  },
+  {
+    "cell": "r2-artifact-boundary-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "artifact-boundary",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "A backup of your data is automatically created before the migration begins, ensuring a safe fallback point if any issues occur during the process. If the migration fails or produces unexpected results, you can restore from this backup to return your system to its pre-migration state.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2508,
+      "output_tokens": 301,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 176
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2508,
+        "outputTokens": 301,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 176
+      }
+    }
+  },
+  {
+    "cell": "r2-artifact-boundary-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "artifact-boundary",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "A backup of your data is automatically created before the migration begins, ensuring your original content remains safely preserved. If the migration encounters any issues or you need to revert, you can restore your data from this backup at any time without losing information.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2616,
+      "output_tokens": 301,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 180
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2616,
+        "outputTokens": 301,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 180
+      }
+    }
+  },
+  {
+    "cell": "r2-artifact-boundary-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "artifact-boundary",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "A backup of your data is automatically created before the migration process begins. If the migration encounters any issues, you can safely restore your data from this backup without losing any information.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1373,
+      "output_tokens": 297,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 191
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1373,
+        "outputTokens": 297,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 191
+      }
+    }
+  },
+  {
+    "cell": "r2-auth-near-example-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "auth-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Bug: Middleware check use `currentTime < expiryTime`. When equal, false, token rejected.\n\nToken still valid at exact expiry moment. Fix use `<=`:\n\n```\nif (currentTime <= expiryTime) {\n  // token valid\n}\n```\n\nChange `<` to `<=` permit token when timestamp match.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3209,
+      "output_tokens": 436,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 288
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3209,
+        "outputTokens": 436,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 288
+      }
+    }
+  },
+  {
+    "cell": "r2-auth-near-example-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "auth-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Token treated as expired when `now >= expiry`. Should allow `now == expiry` (token valid at expiry moment).\n\n**Fix:** Replace comparison operator.\n```javascript\n// Buggy\nif (now >= expiry) reject();\n\n// Correct\nif (now > expiry) reject();\n```\n\nOr flip the check:\n```javascript\n// Also correct\nif (expiry < now) reject();\n```\n\nToken valid until expiry inclusive. Equality moment not yet expired.",
+      "annotations": [
+        {
+          "span": "Token expiry check use `<` not `<=`",
+          "rule_id": "EVO-0BF09A0A-01"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3303,
+      "output_tokens": 1288,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 960
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3303,
+        "outputTokens": 1288,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 960
+      }
+    }
+  },
+  {
+    "cell": "r2-auth-near-example-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "auth-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Comparison off-by-one error. Middleware likely uses `>=` instead of `>`.\n\n**Current (wrong):**\n```javascript\nif (currentTime >= expiryTime) reject;\n```\nRejects when equal.\n\n**Fix:**\n```javascript\nif (currentTime > expiryTime) reject;\n```\nAccepts token while `currentTime <= expiryTime`. Token valid through its expiry instant.\n\nReason: tokens typically remain valid *at* expiry moment, not after. Strict greater-than (`>`) allows that boundary condition.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2498,
+      "output_tokens": 1000,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 671
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2498,
+        "outputTokens": 1000,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 671
+      }
+    }
+  },
+  {
+    "cell": "r2-auth-near-example-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "auth-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Boundary condition error. Most middleware checks `tokenExpiry <= currentTime` to reject, which fails when they're equal. Token should be valid through its expiry instant, rejected only *after*.\n\n**Fix:** Change comparison operator.\n\nBuggy:\n```javascript\nif (tokenExpiry <= currentTime) reject();\n```\n\nCorrect:\n```javascript\nif (tokenExpiry < currentTime) reject();\n```\n\nAlternative (same effect):\n```javascript\nif (currentTime > tokenExpiry) reject();\n```\n\nWhen expiry timestamp arrives, token remains valid until that moment passes. Strict inequality (`<` or `>`) implements this. Non-strict (`<=` or `>=`) prematurely rejects at equality.",
+      "annotations": [
+        {
+          "span": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+          "rule_id": "EVS-17D60B4C-02"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2608,
+      "output_tokens": 988,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 540
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2608,
+        "outputTokens": 988,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 540
+      }
+    }
+  },
+  {
+    "cell": "r2-auth-near-example-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "auth-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Auth middleware typically rejects tokens using a comparison like `if (currentTime >= tokenExpiry)`. When expiry equals the current timestamp, this condition is true, causing rejection even though the token should still be valid at that exact moment.\n\n**The fix:** Change the comparison operator from `>=` to `>`:\n\n```javascript\n// ❌ Wrong (rejects when equal)\nif (currentTime >= tokenExpiry) reject();\n\n// ✅ Correct (only rejects after expiry)\nif (currentTime > tokenExpiry) reject();\n```\n\nThis ensures tokens remain valid *through* their expiry timestamp and only become invalid *after* it.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1364,
+      "output_tokens": 490,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 272
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 919,
+        "outputTokens": 14,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1364,
+        "outputTokens": 490,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 272
+      }
+    }
+  },
+  {
+    "cell": "r2-cache-novel-paraphrase-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "**Cache stampede** (thundering herd): when cached key expires, many concurrent requests miss simultaneously and hammer backend regenerating same data. Single cache miss multiplies into N requests under load.\n\n**Mitigation: probabilistic early expiration (XFetch).** Before TTL expires, small probability request refreshes cache in background while serving stale value. Eliminates synchronized miss window.\n\nAlternative: locking during refresh—first miss locks key, others wait, one fetch serves all.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 6848,
+      "output_tokens": 704,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 418
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 6848,
+        "outputTokens": 704,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 418
+      }
+    }
+  },
+  {
+    "cell": "r2-cache-novel-paraphrase-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Cached entry expires. Concurrent requests hit database simultaneously to rebuild—thundering herd, not staggered. Mitigation: lock-based refresh. First request acquires lock + fetches. Others wait, read once cache repopulated.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3298,
+      "output_tokens": 1522,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1398
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3298,
+        "outputTokens": 1522,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1398
+      }
+    }
+  },
+  {
+    "cell": "r2-cache-novel-paraphrase-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Cache stampede: popular cached entry expires → all concurrent requests miss cache and hammer backend simultaneously, risking overload.\n\nMitigation: probabilistic early expiration (xfetch). Refresh cache before true expiry so incoming requests trigger background regeneration while stale data still serves in-flight queries.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2490,
+      "output_tokens": 684,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 549
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2490,
+        "outputTokens": 684,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 549
+      }
+    }
+  },
+  {
+    "cell": "r2-cache-novel-paraphrase-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Cache entry expires. Concurrent requests all see miss, swarm origin. Massive traffic spike.\n\nMitigation: Probabilistic early expiration (XFetch)—low-probability recompute before expiry spreads load.",
+      "annotations": [
+        {
+          "span": "Probabilistic early expiration (XFetch)",
+          "rule_id": "EVS-17D60B4C-01"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2599,
+      "output_tokens": 2661,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2505
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2599,
+        "outputTokens": 2661,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2505
+      }
+    }
+  },
+  {
+    "cell": "r2-cache-novel-paraphrase-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "cache-novel-paraphrase",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "A cache stampede occurs when a cached item expires and multiple concurrent requests subsequently miss the cache, all querying the backend simultaneously. This creates a sudden spike in backend load despite the cache's presence.\n\n**Mitigation: Probabilistic early expiration (xfetch)**\n\nExpire cached keys probabilistically before their actual TTL expires, so a single request probabilistically regenerates the cache in the background before widespread misses occur. This smooths the load spike.\n\nOther common approaches include mutex-based locking (only one request regenerates while others wait) or serving stale data while async-refreshing.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1358,
+      "output_tokens": 608,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 279
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 912,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1358,
+        "outputTokens": 608,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 279
+      }
+    }
+  },
+  {
+    "cell": "r2-destructive-clarity-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "destructive-clarity",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "**⚠️ WARNING:** This will permanently delete all rows in the `users` table. This action cannot be undone. Proceed only if a verified backup exists.\n\n**Steps:**\n\n1. **Verify backup exists and is recent.** Test restoration from backup to confirm recoverability before proceeding.\n\n2. **Execute the DROP TABLE command:**\n   ```sql\n   DROP TABLE users;\n   ```\n\n3. **Confirm deletion and audit logs.** Verify the table no longer exists (`DESCRIBE users` should fail). Review database audit logs to record who ran this command and when.\n\nDo not proceed without completing step 1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3221,
+      "output_tokens": 597,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 244
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3221,
+        "outputTokens": 597,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 244
+      }
+    }
+  },
+  {
+    "cell": "r2-destructive-clarity-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "destructive-clarity",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "**WARNING: This operation will permanently delete all rows in the production `users` table and cannot be undone. There is no recovery after execution.**\n\n### Steps:\n\n1. **Verify the backup exists and is restorable.** Run a test restore to a non-production environment. Confirm the backup date, size, and integrity checksums match. Document the backup location and timestamp.\n\n2. **Verify you have connected to the production database and the correct table.** Query `SELECT COUNT(*) FROM users;` to confirm the row count. Run `SHOW CREATE TABLE users;` to display the schema. Wait 30 seconds and re-confirm the connection.\n\n3. **Execute the drop and log the timestamp.** Run:\n   ```sql\n   DROP TABLE users;\n   ```\n   Record the exact time of execution, database name, server hostname, and the user account that performed the drop.\n\nDo not proceed unless the backup verification in Step 1 is complete and signed off.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 7081,
+      "output_tokens": 1191,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 685
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 7081,
+        "outputTokens": 1191,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 685
+      }
+    }
+  },
+  {
+    "cell": "r2-destructive-clarity-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "destructive-clarity",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "**Warning:** This will permanently delete all rows and the entire `users` table in your production database and cannot be undone. Data loss is irreversible.\n\n**Before proceeding, you must:**\n\n1. **Verify a complete backup exists.** Confirm the backup is recent, intact, and restorable by testing a restore operation in a non-production environment. Document the backup location and timestamp.\n\n2. **Execute the backup verification query.** Run a test restore or validation script that proves your backup contains the `users` table data:\n   ```sql\n   -- Example: verify backup integrity\n   SELECT COUNT(*) FROM backup_users_table;\n   ```\n   Only proceed if the backup is confirmed valid and accessible.\n\n3. **Execute the DROP TABLE command** only after step 1 and 2 are complete and documented:\n   ```sql\n   DROP TABLE users;\n   ```\n\nDo not proceed unless you have personally verified a restorable backup exists.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 5563,
+      "output_tokens": 895,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 396
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 13,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 5563,
+        "outputTokens": 895,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 396
+      }
+    }
+  },
+  {
+    "cell": "r2-destructive-clarity-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "destructive-clarity",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "**Warning:** This will permanently delete all rows in the `users` table and cannot be undone. This is an irreversible operation. Once executed, all user data will be lost.\n\n**Three ordered steps:**\n\n1. **Verify backup exists and is restorable.** Test restore the backup to a staging environment to confirm data integrity and recoverability. Do not proceed without a confirmed, tested backup.\n\n2. **Connect to production database and execute the DROP TABLE command:**\n   ```sql\n   DROP TABLE users;\n   ```\n\n3. **Verify deletion.** Confirm the table no longer exists in production:\n   ```sql\n   SHOW TABLES LIKE 'users';\n   ```\n   The query should return no results.\n\n**Do not proceed unless a tested backup exists.** This operation cannot be reversed through normal database recovery.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2615,
+      "output_tokens": 709,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 268
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2615,
+        "outputTokens": 709,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 268
+      }
+    }
+  },
+  {
+    "cell": "r2-destructive-clarity-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "destructive-clarity",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "⚠️ **CRITICAL WARNING**: Deleting the production users table will permanently destroy all user data and cannot be recovered unless a verified backup exists. This operation will cause immediate service disruption and data loss.\n\n**Three Ordered Steps for Permanent Deletion:**\n\n1. **Verify and Test Backup Restoration**\n   - Confirm a complete backup of the users table exists and is stored securely\n   - Restore the backup to a test environment and verify all data is present and uncorrupted\n   - Document the backup timestamp and retention location\n   - Do not proceed until backup integrity is confirmed\n\n2. **Execute the DROP TABLE Command**\n   - Connect to the production database with administrative credentials\n   - Run: `DROP TABLE IF EXISTS users;`\n   - Verify the command execution completed successfully\n   - Log all details of the operation including timestamp and user account\n\n3. **Confirm Deletion and Document Irreversibility**\n   - Query the production database to confirm the users table no longer exists\n   - Send formal notification to all stakeholders that the deletion is permanent and complete\n   - Archive all operation logs and communicate that data recovery is impossible without restoring from the backed-up version\n\n**FINAL NOTICE**: Once executed, this operation cannot be undone. Deletion is permanent and immediate. Only proceed if you have a verified backup and explicit authorization.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1373,
+      "output_tokens": 521,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 154
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 929,
+        "outputTokens": 12,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1373,
+        "outputTokens": 521,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 154
+      }
+    }
+  },
+  {
+    "cell": "r2-exact-preservation-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "exact-preservation",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Configure `/srv/app/config.yaml` to not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3253,
+      "output_tokens": 787,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 678
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 26,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3253,
+        "outputTokens": 787,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 678
+      }
+    }
+  },
+  {
+    "cell": "r2-exact-preservation-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "exact-preservation",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "`/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3349,
+      "output_tokens": 656,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 547
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 26,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3349,
+        "outputTokens": 656,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 547
+      }
+    }
+  },
+  {
+    "cell": "r2-exact-preservation-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "exact-preservation",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "On v2.4.1, `/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms`.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2543,
+      "output_tokens": 443,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 334
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 20,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2543,
+        "outputTokens": 443,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 334
+      }
+    }
+  },
+  {
+    "cell": "r2-exact-preservation-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "exact-preservation",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "On v2.4.1, `/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms`.",
+      "annotations": [
+        {
+          "span": "must not retry",
+          "rule_id": "EVS-17D60B4C-02"
+        },
+        {
+          "span": "`E_CONN_RESET` after exactly `250 ms`",
+          "rule_id": "EVS-17D60B4C-01"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2653,
+      "output_tokens": 1305,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1129
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 20,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2653,
+        "outputTokens": 1305,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1129
+      }
+    }
+  },
+  {
+    "cell": "r2-exact-preservation-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "exact-preservation",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "`/srv/app/config.yaml` must not retry `E_CONN_RESET` after exactly `250 ms` on v2.4.1.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1407,
+      "output_tokens": 560,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 451
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 964,
+        "outputTokens": 26,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1407,
+        "outputTokens": 560,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 451
+      }
+    }
+  },
+  {
+    "cell": "r2-neutral-arithmetic-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "neutral-arithmetic",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "323.\n\n17 × 19 = 17 × (20 − 1) = 340 − 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3200,
+      "output_tokens": 453,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 348
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3200,
+        "outputTokens": 453,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 348
+      }
+    }
+  },
+  {
+    "cell": "r2-neutral-arithmetic-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "neutral-arithmetic",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "323.\n17 × 19 = 17 × (20 − 1) = 340 − 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3296,
+      "output_tokens": 1157,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 1052
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3296,
+        "outputTokens": 1157,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 1052
+      }
+    }
+  },
+  {
+    "cell": "r2-neutral-arithmetic-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "neutral-arithmetic",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "17 × 19 = **323**.\n\nArithmetic: 17 × 20 = 340, then subtract 17 to get 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2491,
+      "output_tokens": 496,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 354
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2491,
+        "outputTokens": 496,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 354
+      }
+    }
+  },
+  {
+    "cell": "r2-neutral-arithmetic-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "neutral-arithmetic",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "323. 17 × 20 − 17 = 340 − 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2597,
+      "output_tokens": 1085,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 988
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2597,
+        "outputTokens": 1085,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 988
+      }
+    }
+  },
+  {
+    "cell": "r2-neutral-arithmetic-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "neutral-arithmetic",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "17 × 19 = 323. This can be calculated as 17 × (20 − 1) = 340 − 17 = 323.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1358,
+      "output_tokens": 359,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 249
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 911,
+        "outputTokens": 11,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1358,
+        "outputTokens": 359,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 249
+      }
+    }
+  },
+  {
+    "cell": "r2-react-near-example-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "react-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Inline object = new reference each render. React compares props by reference (shallow). New reference = prop \"changed\" = child re-renders even if content identical.\n\n**Fix: wrap object in `useMemo`.**\n\n```jsx\nconst data = useMemo(() => ({ key: 'value' }), []);\n<Child data={data} />\n```\n\nNow object reference stable. React sees no prop change. Child skips re-render.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3204,
+      "output_tokens": 1111,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 838
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3204,
+        "outputTokens": 1111,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 838
+      }
+    }
+  },
+  {
+    "cell": "r2-react-near-example-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "react-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Inline object prop = new ref each render. React compares props by reference. New ref triggers child re-render. Wrap in `useMemo`:\n\n```javascript\nconst Parent = () => {\n  const data = useMemo(() => ({ foo: 'bar' }), []);\n  return <Child data={data} />;\n};\n```",
+      "annotations": [
+        {
+          "span": "Wrap in `useMemo`",
+          "rule_id": "EVO-0BF09A0A-04"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3300,
+      "output_tokens": 5558,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 5373
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3300,
+        "outputTokens": 5558,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 5373
+      }
+    }
+  },
+  {
+    "cell": "r2-react-near-example-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "react-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "Parent creates new object each render. React compares props by reference. New object reference = different prop value = child re-renders.\n\nFix: memoize with `useMemo`:\n\n```jsx\n// Problem\n<Child config={{ key: 'value' }} />\n\n// Solution\nconst config = useMemo(() => ({ key: 'value' }), []);\n<Child config={config} />\n```\n\nReference stays stable; child skips re-render when other props unchanged.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2494,
+      "output_tokens": 653,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 474
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 15,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2494,
+        "outputTokens": 653,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 474
+      }
+    }
+  },
+  {
+    "cell": "r2-react-near-example-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "react-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "New object reference each render triggers re-render. Wrap object in `useMemo`:\n\n```javascript\nconst config = useMemo(() => ({ key: 'value' }), []);\nreturn <Child config={config} />;\n```",
+      "annotations": [
+        {
+          "span": "New object reference each render triggers re-render",
+          "rule_id": "EVS-17D60B4C-01"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2600,
+      "output_tokens": 2863,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2648
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 16,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2600,
+        "outputTokens": 2863,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2648
+      }
+    }
+  },
+  {
+    "cell": "r2-react-near-example-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "react-near-example",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "React re-renders a child component when its parent passes an inline object prop because a new object reference is created on every render. React compares props by reference equality (===), so the child detects a \"new\" prop value even if the content is identical.\n\n**Concrete fix: Use `useMemo` to memoize the object:**\n\n```jsx\nimport { useMemo } from 'react';\n\nfunction Parent() {\n  const config = useMemo(() => ({ theme: 'dark' }), []);\n  return <Child config={config} />;\n}\n```\n\nThis ensures the same object reference is reused across renders, preventing unnecessary child re-renders.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1358,
+      "output_tokens": 852,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 304
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 914,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1358,
+        "outputTokens": 852,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 304
+      }
+    }
+  },
+  {
+    "cell": "r2-russian-language-original-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-clean",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 = сервер перегружен.\n\nСинхронные переподключения всех = растущая нагрузка = долгое восстановление.\n\nExponential backoff растягивает задержки (1, 2, 4 сек...). Переподключения распределены по времени. Пиковая нагрузка падает.\n\nRetry-After указывает минимум ждать. Exponential backoff + случайность предотвращают синхронизацию.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3222,
+      "output_tokens": 3332,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2999
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3222,
+        "outputTokens": 3332,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2999
+      }
+    }
+  },
+  {
+    "cell": "r2-russian-language-original-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "original-instrumented",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 = ограничение частоты запросов. Сервер перегружен.\n\nБез exponential backoff все клиенты повторяют запрос одновременно → сервер получает новую волну запросов → падает снова. Так можно зависнуть в цикле.\n\nExponential backoff разносит попытки во времени (1сек, 2сек, 4сек...). Сервер восстанавливается между волнами. Нагрузка падает. Проблема решена.\n\nПлюс: заголовок Retry-After подскажет точное время ожидания — слушай его, если передан.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 3317,
+      "output_tokens": 706,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 277
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 3317,
+        "outputTokens": 706,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 277
+      }
+    }
+  },
+  {
+    "cell": "r2-russian-language-semantic-clean",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-clean",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 сигнализирует перегрузку сервера или исчерпание rate limit. Если все клиенты сразу пошлют повторный запрос, сервер упадет еще быстрее.\n\nExponential backoff распределяет попытки во времени: каждый клиент ждет все дольше (1s, 2s, 4s, 8s…), прежде чем переиспользовать. Это снижает пиковую нагрузку и дает серверу восстановиться.\n\nСервер также может указать Retry-After — минимальное время ожидания перед следующей попыткой. Exponential backoff гарантирует, что клиенты не синхронизируются и не создадут «стену» одновременных запросов.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 2512,
+      "output_tokens": 773,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 482
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 2512,
+        "outputTokens": 773,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 482
+      }
+    }
+  },
+  {
+    "cell": "r2-russian-language-semantic-instrumented",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "semantic-instrumented",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 указывает на превышение лимита частоты запросов. Причины exponential backoff:\n\n1. **Восстановление сервера.** Сервер перегружен; немедленные повторные попытки усугубляют ситуацию.\n\n2. **Распределение нагрузки.** Увеличивающиеся интервалы (2с → 4с → 8с) разнесут запросы клиентов, снизят пик нагрузки.\n\n3. **Каскадный отказ.** Без backoff множество клиентов одновременно забивают сервер, переводя его в режим отказа.\n\n4. **Соблюдение Retry-After.** Сервер может указать минимальный интервал; exponential backoff гарантирует соответствие.\n\n**Вывод:** exponential backoff даёт серверу время восстановиться и предотвращает лавину повторных запросов, которая бы только ухудшила ситуацию.",
+      "annotations": [
+        {
+          "span": "HTTP 429 указывает на превышение лимита частоты запросов. Причины exponential backoff:",
+          "rule_id": "EVS-17D60B4C-04"
+        },
+        {
+          "span": "Соблюдение Retry-After.",
+          "rule_id": "EVS-17D60B4C-01"
+        }
+      ]
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 6082,
+      "output_tokens": 2961,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 2213
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 6082,
+        "outputTokens": 2961,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 2213
+      }
+    }
+  },
+  {
+    "cell": "r2-russian-language-terse-control",
+    "requested_model": "claude-haiku-4-5",
+    "arm": "terse-control",
+    "case_id": "russian-language",
+    "repetition": 2,
+    "status": "success",
+    "response": {
+      "answer": "HTTP 429 требует exponential backoff по следующим причинам:\n\n1. **Дает серверу время восстановиться** — При достижении лимита rate limit сервер перегружен. Exponential backoff (с растущими интервалами между попытками) позволяет нагрузке спасть и восстановить нормальное функционирование.\n\n2. **Предотвращает каскадный отказ** — Если все клиенты повторяют запросы с одинаковыми интервалами, они создают синхронизированную волну запросов. Это может снова перегрузить сервер.\n\n3. **Использует Retry-After эффективнее** — Exponential backoff часто комбинируется со значением Retry-After из заголовка ответа, гарантируя, что клиент не вернется раньше, чем сервер готов.\n\n4. **Справедливое распределение ресурсов** — При exponential backoff с небольшой рандомизацией клиенты естественно разнесут свои повторные попытки, позволяя другим клиентам получить доступ к ресурсам.\n\nExponential backoff — это стратегия, которая помогает конкретному клиенту, но и защищает сервер и других пользователей от перегрузки.",
+      "annotations": []
+    },
+    "attempts": [
+      {
+        "attempt": 1,
+        "exit_code": 0,
+        "timed_out": false,
+        "cwd_outside_repo": true
+      }
+    ],
+    "usage": {
+      "input_tokens": 1379,
+      "output_tokens": 1239,
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 0,
+      "output_tokens_details": {
+        "thinking_tokens": 420
+      },
+      "service_tier": "standard",
+      "speed": "standard"
+    },
+    "model_usage": {
+      "claude-haiku-4-5-20251001": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 932,
+        "outputTokens": 17,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 0
+      },
+      "claude-haiku-4-5": {
+        "canonicalModel": "claude-haiku-4-5",
+        "provider": "firstParty",
+        "inputTokens": 1379,
+        "outputTokens": 1239,
+        "cacheReadInputTokens": 0,
+        "cacheCreationInputTokens": 0,
+        "thinkingTokens": 420
+      }
+    }
+  }
+]

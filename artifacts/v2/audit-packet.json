@@ -1,0 +1,1169 @@
+{
+  "schema_version": 1,
+  "independent_semantic_review": "complete-independent-model-review",
+  "warning": "Generator relation labels are not truth. Review segment, source fragment, case prompt, applicability, and independent answer invariants.",
+  "returned_link_count": 27,
+  "links": [
+    {
+      "cell": "haiku--r2-russian-language-semantic-tagged",
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "haiku--r2-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "HTTP 429 требует exponential backoff, чтобы не перегружать сервер повторными запросами при регулировании трафика.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": false,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "invalid-metadata",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [
+          {
+            "kind": "punctuation-sentence-count",
+            "observed": 1,
+            "requested": 2,
+            "limit": "abbreviations and punctuation make this a heuristic only"
+          }
+        ],
+        "joining_whitespace_defects": [
+          {
+            "boundary_after_segment": 0,
+            "left_suffix": "ровании трафика.",
+            "right_prefix": "Используй значен"
+          }
+        ],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The segment preserves HTTP 429 and exponential backoff exactly; the truncated source_quote makes metadata invalid but does not negate observable exactness.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "haiku--r2-russian-language-semantic-tagged",
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 0,
+      "link_index": 1,
+      "claim_id": "haiku--r2-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-04",
+      "segment_text": "HTTP 429 требует exponential backoff, чтобы не перегружать сервер повторными запросами при регулировании трафика.",
+      "rule_id": "EVS-17D60B4C-04",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Preserve user's dominant language in every emitted line. Compress style, not language.",
+      "source_fragment": "Preserve user's dominant language in every emitted line. Compress style, not language.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [
+          {
+            "kind": "punctuation-sentence-count",
+            "observed": 1,
+            "requested": 2,
+            "limit": "abbreviations and punctuation make this a heuristic only"
+          }
+        ],
+        "joining_whitespace_defects": [
+          {
+            "boundary_after_segment": 0,
+            "left_suffix": "ровании трафика.",
+            "right_prefix": "Используй значен"
+          }
+        ],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The task is explicitly Russian and this emitted line is Russian while retaining the requested technical terms.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "haiku--r2-russian-language-semantic-tagged",
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 1,
+      "link_index": 0,
+      "claim_id": "haiku--r2-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "segment_text": "Используй значение заголовка Retry-After из ответа сервера как интервал ожидания перед следующей попыткой.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Preserve inline code, identifiers, API names.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": false,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "invalid-metadata",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [
+          {
+            "kind": "punctuation-sentence-count",
+            "observed": 1,
+            "requested": 2,
+            "limit": "abbreviations and punctuation make this a heuristic only"
+          }
+        ],
+        "joining_whitespace_defects": [
+          {
+            "boundary_after_segment": 0,
+            "left_suffix": "ровании трафика.",
+            "right_prefix": "Используй значен"
+          }
+        ],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The segment preserves Retry-After exactly; its source_quote is truncated, so structural metadata validity is a separate failure.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-exact-negation-artifacts-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "exact-negation-artifacts",
+      "prompt": "Return one sentence that exactly preserves `/srv/app/config.yaml`, `E_CONN_RESET`, `250 ms`, `v2.4.1`, and the phrase `must not retry`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r1-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "`v2.4.1` reads `/srv/app/config.yaml`, hits `E_CONN_RESET` at `250 ms`, must not retry.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "All five task-required artifacts are preserved exactly in the reconstructed answer.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-exact-negation-artifacts-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "exact-negation-artifacts",
+      "prompt": "Return one sentence that exactly preserves `/srv/app/config.yaml`, `E_CONN_RESET`, `250 ms`, `v2.4.1`, and the phrase `must not retry`.",
+      "segment_index": 0,
+      "link_index": 1,
+      "claim_id": "stronger--r1-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-02",
+      "segment_text": "`v2.4.1` reads `/srv/app/config.yaml`, hits `E_CONN_RESET` at `250 ms`, must not retry.",
+      "rule_id": "EVS-17D60B4C-02",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+      "source_fragment": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The explicit phrase must not retry preserves the task's required negative polarity.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-normal-prose-artifact-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "normal-prose-artifact",
+      "prompt": "Write exactly two complete, normal professional English sentences for a persisted README. State that a backup is created before migration and that users can restore it if migration fails. Include the words backup, migration, and restore.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r1-normal-prose-artifact-semantic-tagged::segment-0::EVS-17D60B4C-06",
+      "segment_text": "A backup is automatically created before the migration process begins. If the migration fails, users can restore the backup to return the system to its previous working state.",
+      "rule_id": "EVS-17D60B4C-06",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages.",
+      "source_fragment": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The task explicitly targets a persisted README and the answer is two complete professional prose sentences.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-novel-cache-paraphrase-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "novel-cache-paraphrase",
+      "prompt": "Explain a cache stampede to an experienced engineer in two concise sentences. Include the exact terms `cache stampede` and `request coalescing`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r1-novel-cache-paraphrase-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "Cache stampede: popular key expires, many concurrent requests miss at once, all slam backend simultaneously, overload it. Fix: request coalescing — one request fetches, rest wait, reuse result.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: cache stampede"
+          ],
+          "missing_required_exact": [
+            "cache stampede"
+          ]
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "contradicted",
+        "rationale": "The task requires exact lowercase cache stampede, but the answer uses capitalized Cache stampede; that contradicts the cited exactness rule.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-ordinary-unlinked-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "ordinary-unlinked",
+      "prompt": "Calculate 17 × 19. Return exactly `17 × 19 = 323` and no other answer text.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r1-ordinary-unlinked-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "17 × 19 = 323",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": false,
+      "literal_marker_matches": [],
+      "applicability_observation": "outside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The task requires one exact arithmetic string and the segment preserves every symbol and number. The applicability prior says none, but that is not a semantic oracle.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-original-react-example-original-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "original-tagged",
+      "case_id": "original-react-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r1-original-react-example-original-tagged::segment-0::EVO-0BF09A0A-04",
+      "segment_text": "Each render, inline object prop makes new object reference, so child sees prop change and re-renders. Wrap object in `useMemo` to keep same reference across renders.",
+      "rule_id": "EVO-0BF09A0A-04",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+      "source_fragment": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [
+        "New object ref",
+        "Inline object prop",
+        "`useMemo`"
+      ],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The segment expresses both the new-reference/re-render mechanism and the useMemo remedy from the full source example; the prompt independently supplies the same content, so no provenance follows.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-original-react-example-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "original-react-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r1-original-react-example-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "Inline object prop creates new object reference each parent render, so child sees changed prop and re-renders. Wrap object in `useMemo` to keep same reference across renders, skip re-render.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: inline object prop"
+          ],
+          "missing_required_exact": [
+            "inline object prop"
+          ]
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "contradicted",
+        "rationale": "The task requires exact lowercase inline object prop, but the answer begins with capitalized Inline; an exactness claim is therefore false even though the explanation is semantically sound.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-original-react-example-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "original-react-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "segment_index": 0,
+      "link_index": 1,
+      "claim_id": "stronger--r1-original-react-example-semantic-tagged::segment-0::EVS-17D60B4C-03",
+      "segment_text": "Inline object prop creates new object reference each parent render, so child sees changed prop and re-renders. Wrap object in `useMemo` to keep same reference across renders, skip re-render.",
+      "rule_id": "EVS-17D60B4C-03",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Never ADD word to sound caveman. Compression must not grow output.",
+      "source_fragment": "Never ADD word to sound caveman. Compression must not grow output.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: inline object prop"
+          ],
+          "missing_required_exact": [
+            "inline object prop"
+          ]
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "insufficient-evidence",
+        "rationale": "No caricature word is apparent, but the source also claims compression must not grow output and no appropriate baseline establishes that property.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-russian-language-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r1-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "HTTP 429 значит сервер перегружен, мгновенный повтор только вредит — нужен exponential backoff, чтобы пауза между попытками росла.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "This segment preserves HTTP 429 and exponential backoff exactly as explicitly required.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-russian-language-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 1,
+      "link_index": 0,
+      "claim_id": "stronger--r1-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "segment_text": " Если в ответе есть Retry-After, бери оттуда точное время ожидания вместо своего расчёта.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "This segment preserves Retry-After exactly as explicitly required.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r1-russian-language-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 1,
+      "link_index": 1,
+      "claim_id": "stronger--r1-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-04",
+      "segment_text": " Если в ответе есть Retry-After, бери оттуда точное время ожидания вместо своего расчёта.",
+      "rule_id": "EVS-17D60B4C-04",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Preserve user's dominant language in every emitted line. Compress style, not language.",
+      "source_fragment": "Preserve user's dominant language in every emitted line. Compress style, not language.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The prompt is explicitly Russian and the segment is natural Russian with the required technical term intact.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-exact-negation-artifacts-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "exact-negation-artifacts",
+      "prompt": "Return one sentence that exactly preserves `/srv/app/config.yaml`, `E_CONN_RESET`, `250 ms`, `v2.4.1`, and the phrase `must not retry`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "`/srv/app/config.yaml` v2.4.1 hit `E_CONN_RESET` after 250 ms; must not retry.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "All five explicitly required artifacts are preserved exactly.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-exact-negation-artifacts-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "exact-negation-artifacts",
+      "prompt": "Return one sentence that exactly preserves `/srv/app/config.yaml`, `E_CONN_RESET`, `250 ms`, `v2.4.1`, and the phrase `must not retry`.",
+      "segment_index": 0,
+      "link_index": 1,
+      "claim_id": "stronger--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-02",
+      "segment_text": "`/srv/app/config.yaml` v2.4.1 hit `E_CONN_RESET` after 250 ms; must not retry.",
+      "rule_id": "EVS-17D60B4C-02",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+      "source_fragment": "Never drop not/never/no/only/except: polarity and limits control meaning.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The answer preserves must not retry and therefore the required polarity.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-exact-negation-artifacts-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "exact-negation-artifacts",
+      "prompt": "Return one sentence that exactly preserves `/srv/app/config.yaml`, `E_CONN_RESET`, `250 ms`, `v2.4.1`, and the phrase `must not retry`.",
+      "segment_index": 0,
+      "link_index": 2,
+      "claim_id": "stronger--r2-exact-negation-artifacts-semantic-tagged::segment-0::EVS-17D60B4C-03",
+      "segment_text": "`/srv/app/config.yaml` v2.4.1 hit `E_CONN_RESET` after 250 ms; must not retry.",
+      "rule_id": "EVS-17D60B4C-03",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Never ADD word to sound caveman. Compression must not grow output.",
+      "source_fragment": "Never ADD word to sound caveman. Compression must not grow output.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": false,
+      "literal_marker_matches": [],
+      "applicability_observation": "outside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "insufficient-evidence",
+        "rationale": "The compact wording is not caricatured, but output-growth compatibility cannot be established without a declared baseline; prior inapplicability alone does not contradict it.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-normal-prose-artifact-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "normal-prose-artifact",
+      "prompt": "Write exactly two complete, normal professional English sentences for a persisted README. State that a backup is created before migration and that users can restore it if migration fails. Include the words backup, migration, and restore.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r2-normal-prose-artifact-semantic-tagged::segment-0::EVS-17D60B4C-06",
+      "segment_text": "A backup is automatically created before the migration process begins. If the migration fails for any reason, users can restore the backup to return their data to its previous state.",
+      "rule_id": "EVS-17D60B4C-06",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages.",
+      "source_fragment": "Persisted outside chat: write normal prose for code comments, commits, documentation, issue/PR/MR/defect/ticket/bug-report text, memory files, and third-party messages.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The supplied task is a persisted README and the answer is complete professional prose.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-novel-cache-paraphrase-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "novel-cache-paraphrase",
+      "prompt": "Explain a cache stampede to an experienced engineer in two concise sentences. Include the exact terms `cache stampede` and `request coalescing`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r2-novel-cache-paraphrase-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "Cache stampede: key expires, many concurrent requests miss cache same time, all hit backend/DB at once, load spikes hard.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "literal-overlap",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "misleading-literal-claim",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: cache stampede"
+          ],
+          "missing_required_exact": [
+            "cache stampede"
+          ]
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "contradicted",
+        "rationale": "The emitted literal-overlap relation is absent from the generic source fragment, and capitalized Cache stampede also violates the task's exact lowercase requirement.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-novel-cache-paraphrase-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "novel-cache-paraphrase",
+      "prompt": "Explain a cache stampede to an experienced engineer in two concise sentences. Include the exact terms `cache stampede` and `request coalescing`.",
+      "segment_index": 1,
+      "link_index": 0,
+      "claim_id": "stronger--r2-novel-cache-paraphrase-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "segment_text": " Fix with request coalescing: only one request rebuilds cache, others wait/reuse result.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "literal-overlap",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "misleading-literal-claim",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: cache stampede"
+          ],
+          "missing_required_exact": [
+            "cache stampede"
+          ]
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "contradicted",
+        "rationale": "request coalescing is preserved, but it does not occur in the cited source fragment; the emitted literal-overlap relation is false.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-ordinary-unlinked-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "ordinary-unlinked",
+      "prompt": "Calculate 17 × 19. Return exactly `17 × 19 = 323` and no other answer text.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r2-ordinary-unlinked-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "17 × 19 = 323",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": false,
+      "literal_marker_matches": [],
+      "applicability_observation": "outside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The exact arithmetic answer preserves all task substance. This is broad compatibility, not evidence that the rule caused the answer.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-original-react-example-original-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "original-tagged",
+      "case_id": "original-react-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r2-original-react-example-original-tagged::segment-0::EVO-0BF09A0A-04",
+      "segment_text": "Inline object prop creates new object reference on every render, so React sees prop changed and child re-renders.",
+      "rule_id": "EVO-0BF09A0A-04",
+      "relation": "literal-overlap",
+      "claimed_source_quote": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+      "source_fragment": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [
+        "New object ref",
+        "Inline object prop"
+      ],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "literal-overlap-confirmed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: inline object prop"
+          ],
+          "missing_required_exact": [
+            "inline object prop"
+          ]
+        },
+        "heuristic_alerts": [
+          {
+            "kind": "punctuation-sentence-count",
+            "observed": 1,
+            "requested": 2,
+            "limit": "abbreviations and punctuation make this a heuristic only"
+          }
+        ],
+        "joining_whitespace_defects": [
+          {
+            "boundary_after_segment": 0,
+            "left_suffix": "hild re-renders.",
+            "right_prefix": "Wrap object in u"
+          }
+        ],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The segment has meaningful overlap with the source's inline-object/new-reference/re-render mechanism; the task itself supplies the same terms, so origin remains unidentifiable.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-original-react-example-original-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "original-tagged",
+      "case_id": "original-react-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "segment_index": 1,
+      "link_index": 0,
+      "claim_id": "stronger--r2-original-react-example-original-tagged::segment-1::EVO-0BF09A0A-04",
+      "segment_text": "Wrap object in useMemo so reference stays stable across renders, skipping unneeded re-render.",
+      "rule_id": "EVO-0BF09A0A-04",
+      "relation": "literal-overlap",
+      "claimed_source_quote": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+      "source_fragment": "- full: \"New object ref each render. Inline object prop = new ref = re-render. Wrap in `useMemo`.\"",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "misleading-literal-claim",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: inline object prop"
+          ],
+          "missing_required_exact": [
+            "inline object prop"
+          ]
+        },
+        "heuristic_alerts": [
+          {
+            "kind": "punctuation-sentence-count",
+            "observed": 1,
+            "requested": 2,
+            "limit": "abbreviations and punctuation make this a heuristic only"
+          }
+        ],
+        "joining_whitespace_defects": [
+          {
+            "boundary_after_segment": 0,
+            "left_suffix": "hild re-renders.",
+            "right_prefix": "Wrap object in u"
+          }
+        ],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The segment repeats the source example's useMemo remedy and stable-reference meaning. This observable match is fully confounded by the prompt.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-original-react-example-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "original-react-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r2-original-react-example-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "Inline object prop creates new object reference each parent render, causing child to re-render even if data same.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: inline object prop"
+          ],
+          "missing_required_exact": [
+            "inline object prop"
+          ]
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "contradicted",
+        "rationale": "The task requires exact lowercase inline object prop, but the segment begins with capitalized Inline; the cited exactness rule is not satisfied.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-original-react-example-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "original-react-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "segment_index": 1,
+      "link_index": 0,
+      "claim_id": "stronger--r2-original-react-example-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "segment_text": " Wrap object in useMemo to keep stable reference across renders.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "rule-compatible",
+      "claimed_source_quote": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": true,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "rule-compatible-unassessed",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": false,
+          "violations": [
+            "missing required exact artifacts: inline object prop"
+          ],
+          "missing_required_exact": [
+            "inline object prop"
+          ]
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "compatible",
+        "rationale": "The segment preserves useMemo exactly and accurately states the stable-reference remedy, although the term is also supplied by the prompt.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-russian-language-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 0,
+      "link_index": 0,
+      "claim_id": "stronger--r2-russian-language-semantic-tagged::segment-0::EVS-17D60B4C-01",
+      "segment_text": "HTTP 429 требует exponential backoff — иначе повторные запросы подряд лишь усиливают перегрузку сервера.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "literal-overlap",
+      "claimed_source_quote": "Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": false,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "invalid-metadata",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "contradicted",
+        "rationale": "The segment is compatible with exact-term preservation, but the emitted literal-overlap relation is false because HTTP 429 and exponential backoff do not occur in the cited source fragment; the quote is also truncated.",
+        "authority": "independent model review; not human ground truth"
+      }
+    },
+    {
+      "cell": "stronger--r2-russian-language-semantic-tagged",
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "arm": "semantic-tagged",
+      "case_id": "russian-language",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "segment_index": 1,
+      "link_index": 0,
+      "claim_id": "stronger--r2-russian-language-semantic-tagged::segment-1::EVS-17D60B4C-01",
+      "segment_text": " Используй Retry-After: жди указанное в нём время перед следующей попыткой.",
+      "rule_id": "EVS-17D60B4C-01",
+      "relation": "literal-overlap",
+      "claimed_source_quote": "Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "source_fragment": "Keep all technical substance. Technical terms exact. Code blocks unchanged. Errors quoted exact. Preserve inline code, identifiers, API names, CLI commands, quoted errors, numbers, and units.",
+      "known_id": true,
+      "arm_specific_id": true,
+      "exact_source_quote": false,
+      "case_applicable": true,
+      "literal_marker_matches": [],
+      "applicability_observation": "inside-predeclared-applicability",
+      "independent_semantic_review": "completed-independent-model-review",
+      "relationship_status": "invalid-metadata",
+      "independent_answer_checks": {
+        "grounded": {
+          "passed": true,
+          "violations": [],
+          "missing_required_exact": []
+        },
+        "heuristic_alerts": [],
+        "joining_whitespace_defects": [],
+        "extraneous_source_copies": []
+      },
+      "independent_model_review": {
+        "judgment": "contradicted",
+        "rationale": "The segment preserves Retry-After, but that token does not occur in the cited source fragment; the emitted literal-overlap relation is false and the quote is truncated.",
+        "authority": "independent model review; not human ground truth"
+      }
+    }
+  ]
+}

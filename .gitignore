@@ -1,0 +1,48 @@
+# Local task-board and agent runtime state
+.task-board/
+task-board.config.json
+.agents/
+.codex/
+.claude/
+.roles/
+agents/
+AGENTS*.md
+CLAUDE*.md
+GEMINI.md
+QWEN.md
+.cursor/
+.cursorrules
+**/.github/copilot-instructions.md
+.mcp.json
+agents-attachments-manifest.json
+**/agents-attachments-manifest.json
+.planning/
+.temp/
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Python caches, environments, and test artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+reproduction/
+
+# Editor and OS noise
+.DS_Store
+*.swp
+*.swo
+*~

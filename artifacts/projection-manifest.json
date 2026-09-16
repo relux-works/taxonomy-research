@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "projection_policy": "allowlist-v1",
+  "notice": "Public projections are not byte-identical to private provider wrappers.",
+  "excluded": [
+    "provider stdout/stderr wrappers",
+    "session and request identifiers",
+    "timestamps",
+    "local paths",
+    "agent transcripts and launch logs"
+  ],
+  "allowed": {
+    "top_level": [
+      "cell",
+      "model_label",
+      "requested_model",
+      "arm",
+      "case_id",
+      "repetition",
+      "status",
+      "response"
+    ],
+    "usage": [
+      "input_tokens",
+      "output_tokens",
+      "cache_creation_input_tokens",
+      "cache_read_input_tokens",
+      "output_tokens_details",
+      "service_tier",
+      "speed"
+    ],
+    "model_usage": [
+      "canonicalModel",
+      "provider",
+      "inputTokens",
+      "outputTokens",
+      "cacheReadInputTokens",
+      "cacheCreationInputTokens",
+      "thinkingTokens"
+    ],
+    "attempt": [
+      "attempt",
+      "exit_code",
+      "timed_out",
+      "cwd_outside_repo"
+    ]
+  },
+  "exports": [
+    {
+      "version": "v1",
+      "record_count": 80,
+      "raw_sha256": "d11847b032509b66caaed85b99a4f3aa662d05dca704e4a846aeca960db4c3c1",
+      "projection_sha256": "194375884d71f1539f5336d60f8dcdc76e9d50dbc3dbbe227378718d62941125",
+      "raw_allowed_content_sha256": "9ad60e1d229f95799be7295953b182b9bd75aa15cadd79a1edf80065420085f2",
+      "projection_allowed_content_sha256": "9ad60e1d229f95799be7295953b182b9bd75aa15cadd79a1edf80065420085f2",
+      "projection_path": "artifacts/v1/results.public.json"
+    },
+    {
+      "version": "v2",
+      "record_count": 120,
+      "raw_sha256": "3f2d3ba3db71287a0e7296ecc956bc0cd2ade4db060e3beda779065c6ddd2ec8",
+      "projection_sha256": "737c98cda036b6e3ae1c6ac87766b0a2acf6ecbe6d6b04121e42ed349c709183",
+      "raw_allowed_content_sha256": "c40b943f19af0223c59de9cb681814b72746de0e13bc43e0af0cb1bf9b64425a",
+      "projection_allowed_content_sha256": "c40b943f19af0223c59de9cb681814b72746de0e13bc43e0af0cb1bf9b64425a",
+      "projection_path": "artifacts/v2/results.public.json"
+    }
+  ]
+}

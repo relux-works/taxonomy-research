@@ -1,0 +1,987 @@
+{
+  "schema_version": 1,
+  "frozen_at": "2026-09-16T11:34:33.620225+00:00",
+  "seed": 2609162,
+  "repetitions": 2,
+  "arms": [
+    "terse-control",
+    "original-clean",
+    "original-tagged",
+    "semantic-clean",
+    "semantic-tagged"
+  ],
+  "models": {
+    "haiku": "claude-haiku-4-5-20251001",
+    "stronger": "claude-sonnet-5"
+  },
+  "cases": [
+    {
+      "id": "original-react-example",
+      "category": "real-original-example",
+      "prompt": "In exactly two concise sentences, explain why a React child re-renders when its parent passes an inline object prop and give the `useMemo` fix. Include the exact phrases `inline object prop`, `new object reference`, and `useMemo`.",
+      "required_exact": [
+        "inline object prop",
+        "new object reference",
+        "useMemo"
+      ],
+      "exact_sentences": 2,
+      "applicable_keys": {
+        "original": [
+          "react-full-example"
+        ],
+        "semantic": [
+          "substance-exactness",
+          "no-caricature"
+        ]
+      }
+    },
+    {
+      "id": "novel-cache-paraphrase",
+      "category": "novel-paraphrase",
+      "prompt": "Explain a cache stampede to an experienced engineer in two concise sentences. Include the exact terms `cache stampede` and `request coalescing`.",
+      "required_exact": [
+        "cache stampede",
+        "request coalescing"
+      ],
+      "exact_sentences": 2,
+      "applicable_keys": {
+        "original": [],
+        "semantic": [
+          "substance-exactness",
+          "no-caricature"
+        ]
+      }
+    },
+    {
+      "id": "exact-negation-artifacts",
+      "category": "exact-artifacts-and-negation",
+      "prompt": "Return one sentence that exactly preserves `/srv/app/config.yaml`, `E_CONN_RESET`, `250 ms`, `v2.4.1`, and the phrase `must not retry`.",
+      "required_exact": [
+        "/srv/app/config.yaml",
+        "E_CONN_RESET",
+        "250 ms",
+        "v2.4.1",
+        "must not retry"
+      ],
+      "exact_sentences": 1,
+      "applicable_keys": {
+        "original": [],
+        "semantic": [
+          "substance-exactness",
+          "polarity-limits"
+        ]
+      }
+    },
+    {
+      "id": "russian-language",
+      "category": "language-handling",
+      "prompt": "Ответь ровно двумя краткими предложениями на русском языке: почему HTTP 429 требует exponential backoff и как использовать Retry-After. Сохрани HTTP 429, exponential backoff и Retry-After без изменений.",
+      "required_exact": [
+        "HTTP 429",
+        "exponential backoff",
+        "Retry-After"
+      ],
+      "exact_sentences": 2,
+      "language": "ru",
+      "applicable_keys": {
+        "original": [],
+        "semantic": [
+          "substance-exactness",
+          "language"
+        ]
+      }
+    },
+    {
+      "id": "normal-prose-artifact",
+      "category": "normal-prose-artifact",
+      "prompt": "Write exactly two complete, normal professional English sentences for a persisted README. State that a backup is created before migration and that users can restore it if migration fails. Include the words backup, migration, and restore.",
+      "required_exact": [
+        "backup",
+        "migration",
+        "restore"
+      ],
+      "exact_sentences": 2,
+      "normal_prose": true,
+      "applicable_keys": {
+        "original": [],
+        "semantic": [
+          "artifact-boundary"
+        ]
+      }
+    },
+    {
+      "id": "ordinary-unlinked",
+      "category": "no-applicable-mapped-example",
+      "prompt": "Calculate 17 × 19. Return exactly `17 × 19 = 323` and no other answer text.",
+      "required_exact": [
+        "17 × 19 = 323"
+      ],
+      "exact_answer": "17 × 19 = 323",
+      "applicable_keys": {
+        "original": [],
+        "semantic": []
+      }
+    }
+  ],
+  "schedule": [
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "russian-language",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "normal-prose-artifact",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "semantic-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "ordinary-unlinked",
+      "arm": "original-clean"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "original-react-example",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "novel-cache-paraphrase",
+      "arm": "semantic-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 1,
+      "case_id": "exact-negation-artifacts",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "haiku",
+      "model_id": "claude-haiku-4-5-20251001",
+      "repetition": 1,
+      "case_id": "original-react-example",
+      "arm": "original-tagged"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "normal-prose-artifact",
+      "arm": "terse-control"
+    },
+    {
+      "model_label": "stronger",
+      "model_id": "claude-sonnet-5",
+      "repetition": 2,
+      "case_id": "russian-language",
+      "arm": "original-tagged"
+    }
+  ],
+  "scheduled_cells": 120,
+  "claude_cli_version": "2.1.273 (Claude Code)",
+  "cases_sha256": "d4e9dfbaaf41ae769a618668ec918838ddad590a18daffd16626593d1cba7b1f",
+  "protocol_sha256": "0aca90398206e9727fcd15d347d7a4336c65f1177d2f475341b10fce5c7ec1c5",
+  "source_map_sha256": "0d31ab6631fed840bad4390c3203bbf36fc818b6b57efd57f60753cfadfaa3af",
+  "system_input_sha256": {
+    "terse-control": "eb1d1f4ec90e7acdfdda31b1751b0293f0dff1e7bfa798ff23cc0cb7c3c4b3e0",
+    "original-clean": "d46a3ae4dc2249aece6a02e41909aa7d33ab5e0f399e5e70421c9fd07dd87b65",
+    "original-tagged": "e68757d7ad0dff9efe7454af6aa0b3c7e52c07892ed391fc150cab5240762560",
+    "semantic-clean": "fdf3ca2521e4f61243455d426b6a6285c190cff21bbe1f63356e8e049da7b31c",
+    "semantic-tagged": "4beebfef73e985093d2d589e5e6cfd2b2ad519e61a55c770f5bfb0514283b01a"
+  },
+  "limits": [
+    "Links are observable model claims, not chain of thought or causal provenance.",
+    "Rule-compatible links require independent semantic review.",
+    "Current-original and historical-semantic sources differ in version and contract.",
+    "Cross-v1/v2 comparison is exploratory because the response protocol changed.",
+    "Raw link counts cannot rank maps with unequal granularity."
+  ]
+}
