@@ -83,6 +83,12 @@ does not claim that sanitized bytes equal raw bytes.
 The source snapshot hashes and upstream locations are documented in
 `THIRD_PARTY_NOTICES.md`. Imported research code remains MIT-licensed.
 
+## License
+
+This repository is licensed under the Apache License, Version 2.0; see
+`LICENSE` and `NOTICE`. Code and inert snapshots derived from Caveman keep
+their MIT notice in `THIRD_PARTY_NOTICES.md`.
+
 ## Tools
 
 - `python3 -m unittest discover -s tests -p 'test*.py' -v`: runs focused behavior, negative, portability, and
